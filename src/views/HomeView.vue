@@ -13,12 +13,22 @@
                 class="mySwiper"
             >
                 <swiper-slide>
-                    <div class="background"></div>
-                    <!-- <img src="/images/swiper-3.jpg" alt="" /> -->
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/swiper-3.jpg) no-repeat
+                                center;
+                        "
+                    ></div>
                 </swiper-slide>
                 <swiper-slide>
-                    <div class="background"></div>
-                    <!-- <img src="/images/swiper-2.jpg" alt="" /> -->
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/swiper-2.jpg) no-repeat
+                                center;
+                        "
+                    ></div>
                 </swiper-slide>
             </swiper>
         </div>
@@ -55,7 +65,10 @@ const modules = [Autoplay, Pagination, Navigation];
     display: flex;
 }
 .background {
-    background: red;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(0.7);
 }
 .swiper-button-next,
 .swiper-button-prev {
