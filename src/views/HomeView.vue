@@ -199,6 +199,142 @@
                     Tình yêu không làm cho thế giới quay tròn. Tình yêu là những
                     gì làm cho chuyến đi đáng giá.
                 </p>
+                <div class="event-dates">
+                    <div class="event-stack">
+                        <h3 class="text-center">TIỆC CƯỚI NHÀ NỮ</h3>
+                        <div style="display: flex; gap: 30px">
+                            <div class="image-wrap">
+                                <img
+                                    src="/images/ba9fa84f3011b84a3488f0e966a60314.jpeg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="event-title">
+                                <div style="display: flex; gap: 20px">
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 6px;
+                                        "
+                                    >
+                                        <img
+                                            src="/images/icons8-date-80.png"
+                                            alt=""
+                                        />
+                                        <span>2023-09-23</span>
+                                    </div>
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 6px;
+                                        "
+                                    >
+                                        <img
+                                            src="/images/icons8-clock-48.png"
+                                            alt=""
+                                        />
+                                        <span> 11:00</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img
+                                        src="/images/icons8-location-50.png"
+                                        alt=""
+                                    />
+                                    <span
+                                        >27 Lê Hồng Phong, P.Nguyễn Thái Học,
+                                        Thành phố Yên Bái, Yên Bái</span
+                                    >
+                                </div>
+                                <div>
+                                    <a
+                                        href=""
+                                        style="
+                                            text-decoration: none;
+                                            color: #397eb9;
+                                        "
+                                    >
+                                        Xem bản đồ
+                                    </a>
+                                    <img
+                                        src="/images/icons8-arrow-50.png"
+                                        alt=""
+                                        style="width: 12px"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-stack">
+                        <h3 class="text-center">TIỆC CƯỚI NHÀ NAM</h3>
+                        <div style="display: flex; gap: 30px">
+                            <div class="image-wrap">
+                                <img
+                                    src="/images/ba9fa84f3011b84a3488f0e966a60314.jpeg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="event-title">
+                                <div style="display: flex; gap: 20px">
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 6px;
+                                        "
+                                    >
+                                        <img
+                                            src="/images/icons8-date-80.png"
+                                            alt=""
+                                        />
+                                        <span>2023-09-23</span>
+                                    </div>
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 6px;
+                                        "
+                                    >
+                                        <img
+                                            src="/images/icons8-clock-48.png"
+                                            alt=""
+                                        />
+                                        <span> 11:00</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img
+                                        src="/images/icons8-location-50.png"
+                                        alt=""
+                                    />
+                                    <span
+                                        >27 Lê Hồng Phong, P.Nguyễn Thái Học,
+                                        Thành phố Yên Bái, Yên Bái</span
+                                    >
+                                </div>
+                                <div>
+                                    <a
+                                        href=""
+                                        style="
+                                            text-decoration: none;
+                                            color: #397eb9;
+                                        "
+                                    >
+                                        Xem bản đồ
+                                    </a>
+                                    <img
+                                        src="/images/icons8-arrow-50.png"
+                                        alt=""
+                                        style="width: 12px"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -527,7 +663,7 @@ const modules = [Autoplay, Pagination, Navigation];
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7em 0;
+    padding: 5em 0;
     .container {
         display: flex;
         flex-direction: column;
@@ -546,6 +682,52 @@ const modules = [Autoplay, Pagination, Navigation];
         font-family: "Quicksand", sans-serif;
         color: #767878;
         font-size: 18px;
+    }
+    .event-dates {
+        margin-top: 30px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        .event-stack {
+            font-family: "Quicksand", sans-serif;
+            color: #767878;
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 70%;
+            position: relative;
+            text-align: left;
+            padding: 25px;
+            z-index: 1;
+            overflow: hidden;
+            box-shadow: 0 0 32px #cdcdcd;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            img {
+                width: 192px;
+                border-radius: 15px;
+            }
+            h3 {
+                font-weight: 700;
+                color: #3e3a3a;
+                padding: 0;
+                margin: 0 0 20px;
+                text-transform: capitalize;
+                font-family: "Shantell Sans", cursive;
+                line-height: 1.5;
+            }
+            .event-title {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                img {
+                    width: 14px;
+                }
+            }
+        }
     }
 }
 </style>
