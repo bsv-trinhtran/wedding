@@ -1656,4 +1656,30 @@ const innerHeight = window.innerHeight;
         }
     }
 }
+@media (max-width: 369px) {
+    .couple .couple-heading h2 {
+        font-size: 45px;
+    }
+    .gallery .heading h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 356px) {
+    .couple .couple-wrap .desc-groom h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 334px) {
+    .couple .couple-heading h2 {
+        font-size: 41px;
+    }
+    .gallery .heading h2 {
+        font-size: 41px;
+    }
+    .couple-story .heading h2 {
+        font-size: 41px;
+    }
+}
 </style>
