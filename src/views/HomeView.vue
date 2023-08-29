@@ -1,11 +1,14 @@
 <template>
     <div class="main">
         <Header></Header>
-        <div class="swiper-container">
+        <div class="swiper-container" id="swiper-container">
             <swiper
                 :modules="modules"
                 :centeredSlides="true"
-                :navigation="true"
+                :pagination="{
+                    dynamicBullets: innerHeight > 876 ? false : true,
+                }"
+                :navigation="innerHeight > 876 ? true : false"
                 :autoplay="{
                     delay: 20000000,
                     disableOnInteraction: true,
@@ -18,6 +21,7 @@
                         style="
                             background: url(/images/swiper-3.jpg) no-repeat
                                 center;
+                            background-size: cover;
                         "
                     ></div>
                 </swiper-slide>
@@ -27,6 +31,7 @@
                         style="
                             background: url(/images/swiper-2.jpg) no-repeat
                                 center;
+                            background-size: cover;
                         "
                     ></div>
                 </swiper-slide>
@@ -44,7 +49,7 @@
         <div class="seperator">
             <img src="/images/layer-5.png" alt="" />
         </div>
-        <div class="couple">
+        <div class="couple" id="couple">
             <div class="couple-heading">
                 <h2>Cô dâu &amp; Chú rể</h2>
                 <p>
@@ -192,7 +197,7 @@
                 </div>
             </div>
         </div>
-        <div class="events">
+        <div class="events" id="events">
             <div class="container">
                 <h2>Sự Kiện Cưới</h2>
                 <p>
@@ -337,7 +342,7 @@
                 </div>
             </div>
         </div>
-        <div class="couple-story">
+        <div class="couple-story" id="couple-story">
             <div class="container">
                 <div class="heading">
                     <h2>Chuyện Tình Yêu</h2>
@@ -473,7 +478,7 @@
                 </div>
             </div>
         </div>
-        <div class="gallery">
+        <div class="gallery" id="gallery">
             <div class="container">
                 <div class="heading">
                     <h2>Album Hình Cưới</h2>
@@ -569,7 +574,7 @@
                 </div>
             </div>
         </div>
-        <div class="wishes">
+        <div class="wishes" id="wishes">
             <div class="overlay"></div>
             <div class="container">
                 <div class="heading">
@@ -579,7 +584,7 @@
                         tốt đẹp và sát cánh hơn trong những ngày tồi tệ.
                     </p>
                 </div>
-                <div style="display: flex; gap: 30px">
+                <div style="display: flex; gap: 30px" class="content">
                     <div class="wish-form" style="width: 50%">
                         <h3 class="invitation_heading">
                             Cảm ơn bạn rất nhiều vì đã gửi những lời chúc mừng
@@ -614,17 +619,44 @@
                 </div>
             </div>
         </div>
+        <div class="site-footer">
+            <div class="inner">
+                <div class="couple-pic"></div>
+                <div class="inner-bottom">
+                    <h2>Thanh you!</h2>
+                    <span>( Ngọc Thiện - Thùy Linh )</span>
+                </div>
+            </div>
+        </div>
+        <div class="bii-player">
+            <div class="playerIcon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="27"
+                    fill="#fff"
+                    class="bi bi-volume-mute-fill"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"
+                    ></path>
+                </svg>
+            </div>
+        </div>
+        <!-- <Heart></Heart> -->
     </div>
 </template>
 <script setup>
 import Header from "../components/Header.vue";
+import Heart from "../components/Heart.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-
 const modules = [Autoplay, Pagination, Navigation];
+const innerHeight = window.innerHeight;
 </script>
 <style lang="scss">
 .container {
@@ -635,6 +667,7 @@ const modules = [Autoplay, Pagination, Navigation];
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 .swiper-container {
     width: 100%;
@@ -939,8 +972,9 @@ const modules = [Autoplay, Pagination, Navigation];
 .events {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5em 0;
+    // align-items: center;
+    padding: 7em 0;
+    height: 100vh;
     .container {
         display: flex;
         flex-direction: column;
@@ -961,7 +995,7 @@ const modules = [Autoplay, Pagination, Navigation];
         font-size: 18px;
     }
     .event-dates {
-        margin-top: 30px;
+        margin-top: 100px;
         position: relative;
         width: 100%;
         display: flex;
@@ -1243,6 +1277,7 @@ const modules = [Autoplay, Pagination, Navigation];
     position: relative;
     background-position: center center;
     width: 100%;
+    height: 100vh;
     padding: 7em 0;
     display: flex;
     justify-content: center;
@@ -1332,6 +1367,292 @@ const modules = [Autoplay, Pagination, Navigation];
         }
         .bg {
             background-color: #fff0f1;
+        }
+    }
+}
+.site-footer {
+    background: url(/images/09251e5d8b6cdb1d05a660a54e144685.jpg) center
+        center/cover no-repeat local;
+    text-align: center;
+    height: 100vh;
+    min-height: 900px;
+    position: relative;
+    &::before {
+        content: "";
+        background: rgba(14, 14, 14, 0.5);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .inner {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .couple-pic {
+        background: url(/images/footer-love.png) center center/cover no-repeat
+            local;
+        width: 200px;
+        height: 164px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .inner-bottom {
+        position: relative;
+        h2 {
+            font-family: "Great Vibes", cursive;
+            font-size: 72px;
+            color: #fff;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        span {
+            font-size: 30px;
+            color: #fff;
+            padding: 0.3em 0 0.3em;
+        }
+    }
+}
+.bii-player {
+    position: fixed;
+    z-index: 500;
+    bottom: 70px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    .playerIcon {
+        cursor: pointer;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #df4758;
+        padding-top: 7px;
+        padding-left: 9px;
+        position: absolute;
+        z-index: 2;
+        &::after {
+            background-color: rgba(242, 59, 67, 0.3);
+            width: 120%;
+            height: 120%;
+            left: -10%;
+            top: -10%;
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            animation: biilogo-pulse 1s infinite;
+        }
+    }
+}
+@keyframes biilogo-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+    .display-tc {
+        top: 70%;
+        h1 {
+            font-size: 50px;
+        }
+        .banner-text_names {
+            font-size: 30px !important;
+            white-space: nowrap;
+        }
+    }
+    .seperator {
+        height: 30px;
+        bottom: 0;
+        img {
+            height: 100%;
+        }
+    }
+    .swiper-pagination {
+        margin-bottom: 20px;
+        .swiper-pagination-bullet {
+            height: 10px;
+            width: 10px;
+        }
+        .swiper-pagination-bullet-active {
+            background: #ec2328;
+        }
+        .swiper-pagination-bullet-active-next {
+            position: relative;
+            background: #fff !important;
+        }
+    }
+    .bii-player {
+        left: 20px;
+        bottom: 30px;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .logo {
+        h1 {
+            font-size: 25px !important;
+        }
+        img {
+            height: 25px !important;
+            width: 25px !important;
+        }
+    }
+    .couple {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 2em;
+        .couple-heading {
+            text-align: center;
+        }
+        .couple-wrap {
+            width: 90%;
+            flex-direction: column;
+            align-items: center;
+            padding-right: 15px;
+            padding-left: 15px;
+            .groom-wrap {
+                width: 100%;
+                margin-bottom: 40px;
+                .groom {
+                    max-width: 100%;
+                    max-height: 100%;
+                    height: unset;
+                }
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    height: unset;
+                }
+                .desc-groom {
+                    p {
+                        width: unset;
+                    }
+                }
+            }
+        }
+        .heart {
+            display: none;
+        }
+    }
+    .section-accessibilities {
+        .container {
+            flex-direction: column;
+        }
+    }
+    .events {
+        padding: 5em 0 3em 0;
+        height: auto;
+        .container {
+            width: 100%;
+            p {
+                text-align: center;
+            }
+            .event-dates {
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+                .event-stack {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    > div {
+                        flex-direction: column;
+                        gap: 20px !important;
+                        .image-wrap {
+                            width: 100%;
+                            img {
+                                width: 100%;
+                                border-radius: 8px;
+                            }
+                        }
+                        .event-title {
+                            align-items: center;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .couple-story {
+        padding-bottom: 0px;
+        .container {
+            &::before {
+                border: none;
+            }
+            width: 100%;
+            .heading {
+                p {
+                    text-align: center;
+                }
+            }
+            .timeline {
+                gap: 20px;
+                margin-bottom: 70px;
+                .timeline-badge {
+                    position: unset;
+                }
+                .timeline-panel {
+                    position: relative;
+                    top: unset;
+                    left: unset;
+                    width: 100%;
+                    &::after {
+                        right: 48%;
+                        top: -27px;
+                        border-bottom: 14px solid #ffffff;
+                        border-left: 14px solid transparent;
+                        border-top: 14px solid transparent;
+                        border-right: 14px solid transparent;
+                    }
+                }
+                .right::after {
+                    left: unset;
+                }
+            }
+        }
+    }
+    .gallery {
+        padding-bottom: 3em;
+        .grid {
+            display: flex;
+            flex-direction: column;
+            height: unset;
+            .grid-item {
+                position: unset !important;
+                width: 100%;
+            }
+        }
+    }
+    .wishes {
+        height: unset;
+        .heading {
+            p {
+                text-align: center;
+            }
+        }
+        .content {
+            flex-direction: column;
+            .wish-form {
+                width: 100% !important;
+            }
+            .wish-box {
+                width: 100% !important;
+            }
         }
     }
 }
