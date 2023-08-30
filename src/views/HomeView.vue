@@ -1383,6 +1383,7 @@ const playAudio = () => {
             background: #f23b43 !important;
             cursor: pointer;
             text-decoration: none;
+            white-space: nowrap;
         }
     }
     .grid {
