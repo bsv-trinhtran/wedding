@@ -778,6 +778,12 @@ const playAudio = () => {
         opacity: 0.5;
     }
 }
+.swiper-pagination-bullet {
+    opacity: 1 !important;
+    height: 10px !important;
+    width: 10px !important;
+    transform: scale(1) !important;
+}
 .swiper-button-prev {
     left: 10px;
     right: auto;
@@ -1605,6 +1611,9 @@ const playAudio = () => {
             height: 10px;
             width: 10px;
         }
+        .swiper-pagination-bullet-active-prev {
+            background: #fff !important;
+        }
         .swiper-pagination-bullet-active {
             background: #ec2328;
         }
@@ -1807,6 +1816,9 @@ const playAudio = () => {
         .donate-card {
             width: calc(100% - 40px) !important;
         }
+    }
+    .playerIcon {
+        cursor: unset !important;
     }
 }
 @media (max-width: 369px) {

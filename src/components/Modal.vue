@@ -198,10 +198,21 @@ watch(showModal, (newValue, oldValue) => {
 }
 @keyframes fadeInUp {
     from {
-        transform: translateY(0px);
+        transform: translateY(-50%);
     }
     to {
-        transform: translateY(22%);
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes fadeInUp {
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(22%);
+        }
     }
 }
 </style>
