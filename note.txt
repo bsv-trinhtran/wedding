@@ -4,3 +4,4 @@
 - xem bản đồ
 - xác nhận tham dự
 - menu
+- xem album

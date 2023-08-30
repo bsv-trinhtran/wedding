@@ -1646,9 +1646,11 @@ const playAudio = () => {
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
+        padding-top: 4em;
         padding-bottom: 2em;
         .couple-heading {
             text-align: center;
+            margin-bottom: 1.9em;
         }
         .couple-wrap {
             width: 90%;
@@ -1663,6 +1665,7 @@ const playAudio = () => {
                     max-width: 100%;
                     max-height: 100%;
                     height: unset;
+                    margin: unset !important;
                 }
                 img {
                     max-width: 100%;
@@ -1697,6 +1700,7 @@ const playAudio = () => {
                 flex-direction: column;
                 align-items: center;
                 gap: 0;
+                margin-top: 35px !important;
                 .event-stack {
                     width: 100%;
                     margin-bottom: 20px;
