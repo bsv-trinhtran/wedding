@@ -1,4 +1,5 @@
 <template>
+    <!-- <LoadingHeart v-if="isLoading"></LoadingHeart> -->
     <div class="main">
         <Header></Header>
         <div class="swiper-container" id="swiper-container">
@@ -10,7 +11,7 @@
                 }"
                 :navigation="innerHeight > 876 ? true : false"
                 :autoplay="{
-                    delay: 20000000,
+                    delay: 5000,
                     disableOnInteraction: true,
                 }"
                 class="mySwiper"
@@ -104,7 +105,7 @@
         </div>
         <div class="section-accessibilities">
             <div class="container">
-                <router-link to="">
+                <a @click="scrollToSection('wishes')">
                     <span>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -120,8 +121,8 @@
                         </svg>
 
                         Gửi lời chúc
-                    </span>
-                </router-link>
+                    </span></a
+                >
                 <router-link to="">
                     <span>
                         <svg
@@ -140,7 +141,7 @@
                         Xác nhận tham dự
                     </span>
                 </router-link>
-                <router-link to="">
+                <router-link to="" @click="isModal = !isModal">
                     <span>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -167,33 +168,27 @@
             </div>
         </div>
         <div class="the-countdown">
-            <div class="seperator">
-                <img src="/images/layer-3.png" alt="" />
-            </div>
-            <div class="count-titles">
-                <h2>The big day</h2>
-                <div class="date">
-                    <div class="box">
-                        <span class="red">27</span>
-                        <span>ngày</span>
-                    </div>
-                    <div class="box">
-                        <span class="red">27</span>
-                        <span>ngày</span>
-                    </div>
-                    <div class="box">
-                        <span class="red">27</span>
-                        <span>ngày</span>
-                    </div>
-                    <div class="box">
-                        <span class="red">27</span>
-                        <span>ngày</span>
-                    </div>
+            <div class="container">
+                <div class="section-head">
+                    <h4>We will become a family in</h4>
                 </div>
-            </div>
-            <div class="count-img">
-                <div class="clock">
-                    <img src="/images/clock-regular.svg" alt="" />
+                <div class="date">
+                    <div>
+                        <h4>52</h4>
+                        <p>NGÀY</p>
+                    </div>
+                    <div>
+                        <h4>52</h4>
+                        <p>GIỜ</p>
+                    </div>
+                    <div>
+                        <h4>52</h4>
+                        <p>PHÚT</p>
+                    </div>
+                    <div>
+                        <h4>52</h4>
+                        <p>GIÂY</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -338,6 +333,27 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="invitation-section" v-if="innerHeight > 876">
+            <div class="container">
+                <div class="invitation-box">
+                    <div class="inner">
+                        <h2>Save the Date</h2>
+                        <span>For the wedding of</span>
+                        <h3>Ngọc Thiện &amp; Thùy Linh</h3>
+                        <p>
+                            Một lời chúc của bạn chắc chắn sẽ làm cho đám cưới
+                            của chúng tôi có thêm một niềm hạnh phúc!
+                        </p>
+                        <a
+                            @click="scrollToSection('wishes')"
+                            class="theme-btn"
+                            id="scroll"
+                            >Gửi lời chúc</a
+                        >
                     </div>
                 </div>
             </div>
@@ -628,7 +644,7 @@
                 </div>
             </div>
         </div>
-        <div class="bii-player">
+        <div class="bii-player" @click="playAudio">
             <div class="playerIcon">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -637,18 +653,51 @@
                     fill="#fff"
                     class="bi bi-volume-mute-fill"
                     viewBox="0 0 16 16"
+                    v-if="!isPlay"
                 >
                     <path
                         d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"
                     ></path>
                 </svg>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="27"
+                    fill="#fff"
+                    class="bi bi-volume-up-fill"
+                    viewBox="0 0 16 16"
+                    v-else
+                >
+                    <path
+                        d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"
+                    ></path>
+                    <path
+                        d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"
+                    ></path>
+                    <path
+                        d="M8.707 11.182A4.486 4.486 0 0 0 10.025 8a4.486 4.486 0 0 0-1.318-3.182L8 5.525A3.489 3.489 0 0 1 9.025 8 3.49 3.49 0 0 1 8 10.475l.707.707zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"
+                    ></path>
+                </svg>
             </div>
+            <audio id="myAudio">
+                <source
+                    src="/images/Perfect-EdSheeran-6445593.mp3"
+                    type="audio/mpeg"
+                />
+            </audio>
         </div>
         <!-- <Heart></Heart> -->
+        <Modal
+            :showModal="isModal"
+            @update:modelValue="(v) => (isModal = v)"
+        ></Modal>
     </div>
 </template>
 <script setup>
 import Header from "../components/Header.vue";
+import Modal from "../components/Modal.vue";
+import LoadingHeart from "../components/LoadingHeart.vue";
+import { ref } from "vue";
 import Heart from "../components/Heart.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
@@ -657,6 +706,33 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const modules = [Autoplay, Pagination, Navigation];
 const innerHeight = window.innerHeight;
+const isPlay = ref(false);
+const isLoading = ref(true);
+const isModal = ref(false);
+
+setTimeout(() => {
+    isLoading.value = false;
+}, 3000);
+
+const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+        element.scrollIntoView({
+            behavior: "smooth",
+        });
+    }
+};
+
+const playAudio = () => {
+    const myAudio = document.getElementById("myAudio");
+    if (myAudio.paused && myAudio.currentTime >= 0 && !myAudio.started) {
+        myAudio.play();
+        isPlay.value = true;
+    } else {
+        myAudio.pause();
+        isPlay.value = false;
+    }
+};
 </script>
 <style lang="scss">
 .container {
@@ -710,7 +786,7 @@ const innerHeight = window.innerHeight;
     position: absolute;
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     z-index: 100;
     display: flex;
     justify-content: center;
@@ -721,11 +797,17 @@ const innerHeight = window.innerHeight;
         font-family: "Amatic SC", cursive;
         font-weight: 700;
         color: white;
+        opacity: 0;
+        animation: fadeInUp 1s forwards;
+        animation-delay: 0.1s;
     }
     .banner-text {
         color: #ffffff;
         display: flex;
         justify-content: center;
+        animation: fadeInUp 1s forwards;
+        animation-delay: 0.3s;
+        opacity: 0;
         .banner-text_names {
             font-family: "Playball", cursive;
             font-size: 45px;
@@ -744,6 +826,15 @@ const innerHeight = window.innerHeight;
         color: #fff;
         margin-top: 10px;
         font-family: "Quicksand", sans-serif;
+        opacity: 0;
+        animation: fadeInUp 1s forwards;
+        animation-delay: 0.6s;
+    }
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(-20px);
     }
 }
 .seperator {
@@ -869,103 +960,60 @@ const innerHeight = window.innerHeight;
     }
 }
 .the-countdown {
+    background: url(/images/3f412efaa58ff70f77ef2ed57a020073.jpg);
     position: relative;
-    padding: 70px;
-    background: url(/images/a92c4f18902576f825fb27a0894ec3f9.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 45%;
     &::before {
+        top: 0;
+        left: 0;
         content: "";
         position: absolute;
-        right: -105px;
-        top: 0;
-        bottom: 0;
-        width: 40%;
-        background: #fff;
-        z-index: 1;
-        transform: skewX(-20deg);
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / 30%);
     }
-    .seperator {
-        top: -7px;
-        bottom: inherit;
-        transform: rotate(180deg);
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .count-titles {
-        width: 1170px;
-        h2 {
+    .section-head {
+        // margin-bottom: 15px;
+        h4 {
+            position: relative;
             color: #fff;
-            margin-bottom: 20px;
-            font-size: 32px;
-            padding: 0;
-            margin: 0 0 10px;
-            text-transform: capitalize;
-            font-family: "Shantell Sans", cursive;
-            line-height: 1.5;
-            font-weight: 700;
-        }
-        .date {
-            display: flex;
-            gap: 20px;
-            margin-top: 20px;
-            width: 66.66666667%;
-            justify-content: center;
-            .box {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                border: 3px solid #f23b43;
-                border-radius: 50%;
-                background: #ffff;
-                padding: 12px 20px;
-                .red {
-                    color: #f23b43;
-                    font-weight: bold;
-                }
-                span {
-                    color: #767878;
-                }
-            }
+            font-family: "Alex Brush", cursive;
+            font-weight: 400;
+            font-size: 60px;
+            margin-bottom: 0;
         }
     }
-    .count-img {
-        width: 33.33333333%;
-        position: absolute;
-        right: 30%;
-        &::before {
-            content: "";
-            position: absolute;
-            right: -200px;
-            top: -8px;
-            width: 240px;
-            height: 240px;
-            background-image: url(/images/f1.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            transform: rotate(320deg);
-            z-index: 200;
-        }
-        .clock {
-            position: absolute;
-            right: 0;
-            height: 150px;
-            width: 150px;
-            background: #fff;
-            font-size: 90px;
-            text-align: center;
-            line-height: 1.4;
-            color: #ed4144;
-            border-radius: 50%;
-            z-index: 300;
-            border: 10px solid #d3d3d3;
+    .date {
+        position: relative;
+        display: flex;
+        color: #fff;
+        font-weight: bold;
+        > div {
+            padding: 15px;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            img {
-                width: 70%;
-            }
+            font-family: "Nunito Sans", sans-serif;
+        }
+        h4 {
+            color: #fff;
+            font-size: 60px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 15px;
         }
     }
 }
@@ -1038,6 +1086,80 @@ const innerHeight = window.innerHeight;
                     width: 14px;
                 }
             }
+        }
+    }
+}
+.invitation-section {
+    background: url(/images/f19654e3bd1ede3db14f23e72d97fe8d.jpg) center
+        center/cover no-repeat local;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        background: rgba(206, 205, 175, 0.42);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .invitation-box {
+        background: url(/images/date-bg.png) center center/cover no-repeat local;
+        background-size: 100% 100%;
+        max-width: 886px;
+        padding: 120px 100px;
+        text-align: center;
+        margin: 100px auto;
+        position: relative;
+        height: 525px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &::before {
+            content: "";
+            width: calc(92% - 100px);
+            height: calc(87% - 100px);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 4px double rgba(146, 91, 72, 0.7019607843137254);
+        }
+        h2 {
+            font-family: "Great Vibes", cursive;
+            font-size: 50px;
+            color: #925b48;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 300;
+            color: #000;
+        }
+        h3 {
+            font-size: 32px;
+            font-weight: 600;
+            margin: 0.83em 0 1em;
+            color: #925b48;
+        }
+        p {
+            font-size: 15px;
+            color: #797979;
+            margin-bottom: 2em;
+        }
+        a {
+            background-color: #925b48;
+            color: #fff;
+            padding: 13px 25px 13px 25px;
+            font-weight: 500;
+            border: 0;
+            border-radius: 0;
+            text-transform: uppercase;
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
         }
     }
 }
@@ -1655,6 +1777,37 @@ const innerHeight = window.innerHeight;
             }
         }
     }
+    .the-countdown {
+        .section-head {
+            h4 {
+                font-size: 37px;
+            }
+        }
+        .date {
+            flex-wrap: wrap;
+            justify-content: center;
+            h4 {
+                font-size: 36px;
+            }
+        }
+    }
+    .modal-content {
+        transform: translateY(22%);
+        margin: unset !important;
+        padding: unset !important;
+    }
+    .donate-modal-content {
+        margin-bottom: 100px !important;
+    }
+    .donate-modal-body {
+        padding: unset !important;
+    }
+    .donate-box {
+        flex-direction: column;
+        .donate-card {
+            width: calc(100% - 40px) !important;
+        }
+    }
 }
 @media (max-width: 369px) {
     .couple .couple-heading h2 {
@@ -1669,6 +1822,16 @@ const innerHeight = window.innerHeight;
     .couple .couple-wrap .desc-groom h3 {
         font-size: 30px;
     }
+    .section-head {
+        h4 {
+            font-size: 34px !important;
+        }
+    }
+    .donate-modal-header {
+        span {
+            font-size: 25px;
+        }
+    }
 }
 
 @media (max-width: 334px) {
@@ -1680,6 +1843,18 @@ const innerHeight = window.innerHeight;
     }
     .couple-story .heading h2 {
         font-size: 41px;
+    }
+    .section-head {
+        h4 {
+            font-size: 30px !important;
+        }
+    }
+    .date {
+        flex-wrap: wrap;
+        justify-content: center;
+        h4 {
+            font-size: 34px !important;
+        }
     }
 }
 </style>

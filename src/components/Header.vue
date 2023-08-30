@@ -80,19 +80,19 @@ document.addEventListener("DOMContentLoaded", function () {
         scrollContainer.addEventListener("scroll", function () {
             if (
                 this.scrollTop + 100 >=
-                3 * window.innerHeight + 114 + 286 + 2124 + 417 + 2383
+                3 * window.innerHeight + 114 + 286 + 2124 + 417 + 725 + 2383
             ) {
                 styleHeader.value = true;
                 isActive.value = 6;
             } else if (
                 this.scrollTop + 100 >=
-                3 * window.innerHeight + 114 + 286 + 2124 + 417
+                3 * window.innerHeight + 114 + 286 + 2124 + 417 + 725
             ) {
                 styleHeader.value = true;
                 isActive.value = 5;
             } else if (
                 this.scrollTop + 100 >=
-                3 * window.innerHeight + 114 + 286
+                3 * window.innerHeight + 114 + 286 + 725
             ) {
                 styleHeader.value = true;
                 isActive.value = 4;
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
     width: 100%;
     min-height: 50px;
     position: fixed;
-    z-index: 10000;
+    z-index: 1000;
     top: 0;
     left: 0;
     text-transform: uppercase;
