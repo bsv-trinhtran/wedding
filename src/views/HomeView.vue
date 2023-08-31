@@ -734,7 +734,7 @@ const playAudio = () => {
     }
 };
 </script>
-<style lang="scss">
+<style lang="scss" >
 .container {
     width: 1170px;
 }
