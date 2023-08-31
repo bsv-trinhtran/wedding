@@ -503,10 +503,7 @@
                         trong khi yêu ai đó sâu sắc sẽ cho bạn dũng khí.
                     </p>
                     <div class="text-center">
-                        <router-link
-                            to="album"
-                            target="_blank"
-                            class="btn btn-danger btn-sm"
+                        <router-link to="album" class="btn btn-danger btn-sm"
                             >Xem Album</router-link
                         >
                     </div>
