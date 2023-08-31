@@ -81,7 +81,6 @@ const showModal = ref(false);
 const emits = defineEmits<{
     (eventName: "update:modelValue", newValue: boolean): void;
 }>();
-// emit("update:modelValue", false);
 watch(
     () => props.showModal,
     (newValue, oldValue) => {

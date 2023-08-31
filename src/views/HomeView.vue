@@ -123,7 +123,7 @@
                         Gửi lời chúc
                     </span></a
                 >
-                <router-link to="">
+                <router-link to="attend-wedding">
                     <span>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -604,7 +604,11 @@
                             tốt đẹp nhất đến đám cưới của chúng tôi!
                         </h3>
                         <div style="display: flex; gap: 20px">
-                            <input type="text" placeholder="Nhập họ tên" />
+                            <input
+                                type="text"
+                                placeholder="Nhập họ tên"
+                                v-model="name"
+                            />
                         </div>
                         <div>
                             <textarea
@@ -613,20 +617,22 @@
                                 rows="10"
                                 style="width: 100%"
                                 placeholder="Nhập lời chúc của bạn"
+                                v-model="loichuc"
                             ></textarea>
                         </div>
                         <div style="display: flex; justify-content: center">
-                            <div class="btn">GỬI LỜI CHÚC</div>
+                            <div class="btn" @click="post">GỬI LỜI CHÚC</div>
                         </div>
                     </div>
                     <div class="wish-box" style="width: 50%">
-                        <div class="wish-box-item">
-                            <strong>Võ Tiến Hằng</strong>
-                            <p>Wow, thật tuyệt vời</p>
-                        </div>
-                        <div class="wish-box-item bg">
-                            <strong>Vũ Văn Mốc</strong>
-                            <p>Hihi, chúc mừng hai bạn</p>
+                        <div
+                            class="wish-box-item"
+                            v-for="(item, index) in arrayLoiChuc"
+                            :key="index"
+                            :class="index % 2 == 0 ? 'bg' : ''"
+                        >
+                            <strong>{{ item.username }}</strong>
+                            <p>{{ item.loichuc }}</p>
                         </div>
                     </div>
                 </div>
@@ -691,10 +697,11 @@
     </div>
 </template>
 <script setup>
+import axios from "axios";
 import Header from "../components/Header.vue";
 import Modal from "../components/Modal.vue";
 import LoadingHeart from "../components/LoadingHeart.vue";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import Heart from "../components/Heart.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
@@ -706,6 +713,9 @@ const innerHeight = window.innerHeight;
 const isPlay = ref(false);
 const isLoading = ref(true);
 const isModal = ref(false);
+const name = ref("");
+const loichuc = ref("");
+const arrayLoiChuc = ref([]);
 
 setTimeout(() => {
     isLoading.value = false;
@@ -730,6 +740,38 @@ const playAudio = () => {
         isPlay.value = false;
     }
 };
+
+const post = async () => {
+    if (name.value && loichuc.value) {
+        const { data } = await axios.post(
+            "https://vue-firebase-wedding-default-rtdb.firebaseio.com/data.json",
+            {
+                username: name.value,
+                loichuc: loichuc.value,
+            }
+        );
+        console.log(data[0]);
+        name.value = "";
+        loichuc.value = "";
+        await get();
+    }
+};
+const get = async () => {
+    const { data } = await axios.get(
+        "https://vue-firebase-wedding-default-rtdb.firebaseio.com/data.json"
+    );
+    arrayLoiChuc.value = [];
+    for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+            arrayLoiChuc.value.unshift(data[key]);
+        }
+    }
+    console.log(arrayLoiChuc.value);
+    // console.log(name.value, loichuc.value);
+};
+onMounted(async () => {
+    await get();
+});
 </script>
 <style lang="scss" >
 .container {
