@@ -503,11 +503,11 @@
                         trong khi yêu ai đó sâu sắc sẽ cho bạn dũng khí.
                     </p>
                     <div class="text-center">
-                        <a
-                            href="https://thubinh.iwedding.info/photo-album"
+                        <router-link
+                            to="album"
                             target="_blank"
                             class="btn btn-danger btn-sm"
-                            >Xem Album</a
+                            >Xem Album</router-link
                         >
                     </div>
                 </div>
