@@ -60,7 +60,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const modules = [Autoplay, Pagination, Navigation];
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 .main-album {
     display: flex;
     flex-direction: column;
@@ -113,13 +113,19 @@ const modules = [Autoplay, Pagination, Navigation];
             font-size: 30px !important;
         }
     }
-    .swiper-button-next,
-    .swiper-button-prev {
-        width: 24px !important;
-        height: 42px !important;
-        &:after {
-            font-size: 14px !important;
-        }
+}
+:deep(.swiper-button-next) {
+    width: 24px !important;
+    height: 42px !important;
+    &:after {
+        font-size: 14px !important;
+    }
+}
+:deep(.swiper-button-prev) {
+    width: 24px !important;
+    height: 42px !important;
+    &:after {
+        font-size: 14px !important;
     }
 }
 </style>
