@@ -21,20 +21,20 @@
                 class="d-flex flex-wrap align-items-center justify-content-center"
             >
                 <h1 style="font-size: 29px">
-                    <span>Bình Bờm</span>
+                    <span>Ngọc Linh</span>
                     <img
                         height="50"
                         src="https://thubinh.iwedding.info/album/heart.gif"
                     />
-                    <span>Anh Thư</span>
+                    <span>Phương Uyên</span>
                 </h1>
             </div>
             <p
                 class="lead text-center mt-4"
                 style="font-family: 'Jura', sans-serif"
             >
-                Hãy nhập vào tên của bạn để xác nhận bạn tham dự chung vui cùng
-                với gia đình chúng tôi.
+                Hãy nhập vào tên của bạn để xác nhận bạn tham dự. Sự hiện diện
+                của bạn là niểm vinh hạnh cho gia đình chúng tôi!
             </p>
             <input type="text" placeholder="Nhập tên của bạn" v-model="name" />
             <div

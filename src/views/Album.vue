@@ -2,12 +2,12 @@
     <div class="main-album">
         <div class="header">
             <h1>
-                <span>Bình Bờm</span>
+                <span>Ngọc Linh</span>
                 <img
                     height="50"
                     src="https://thubinh.iwedding.info/album/heart.gif"
                 />
-                <span>Anh Thư</span>
+                <span>Phương Uyên</span>
             </h1>
             <h2>
                 Tình yêu không có rào cản. Nó nhảy rào, nhảy rào, xuyên tường để

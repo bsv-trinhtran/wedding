@@ -45,7 +45,7 @@
                             />
                             <p>Ngân hàng: <strong>VIB</strong></p>
                             <p>
-                                Tên tài khoản: <strong>NGUYEN NGOC HUNG</strong>
+                                Tên tài khoản: <strong>TRAN NGOC LINH</strong>
                             </p>
                             <p>Số tài khoản: <strong>001741516</strong></p>
                         </div>
@@ -57,7 +57,8 @@
                             />
                             <p>Ngân hàng: <strong>VIB</strong></p>
                             <p>
-                                Tên tài khoản: <strong>NGUYEN NGOC HUNG</strong>
+                                Tên tài khoản:
+                                <strong>NGUYEN PHUONG UYEN</strong>
                             </p>
                             <p>Số tài khoản: <strong>001741516</strong></p>
                         </div>

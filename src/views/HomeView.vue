@@ -43,9 +43,9 @@
             <div class="banner-text">
                 <span class="banner-text_names">Ngọc Linh </span>
                 <img src="/images/heart-solid.svg" alt="" />
-                <span class="banner-text_names">Ngọc Uyên </span>
+                <span class="banner-text_names">Phương Uyên </span>
             </div>
-            <div class="banner-text_date">16 October 2023</div>
+            <div class="banner-text_date">12 October 2023</div>
         </div>
         <div class="seperator">
             <img src="/images/layer-5.png" alt="" />
@@ -67,7 +67,7 @@
                         />
                     </div>
                     <div class="desc-groom">
-                        <h3>Trần Ngọc Uyên</h3>
+                        <h3>Huỳnh Phương Uyên</h3>
                         <p>
                             Cô gái đến từ tỉnh Nghệ An, hiện đang sinh sống và
                             làm việc tại thủ đô Hà Nội. Sau khi tốt nghiệp đại
@@ -222,7 +222,7 @@
                                             src="/images/icons8-date-80.png"
                                             alt=""
                                         />
-                                        <span>2023-09-23</span>
+                                        <span>2023-10-12</span>
                                     </div>
                                     <div
                                         style="
@@ -244,13 +244,13 @@
                                         alt=""
                                     />
                                     <span
-                                        >27 Lê Hồng Phong, P.Nguyễn Thái Học,
-                                        Thành phố Yên Bái, Yên Bái</span
+                                        >5B Nguyễn Công Trứ - KP5, Lagi - Bình
+                                        Thuận</span
                                     >
                                 </div>
                                 <div>
                                     <a
-                                        href=""
+                                        href="https://goo.gl/maps/UuREuBNqi644JB2D8"
                                         style="
                                             text-decoration: none;
                                             color: #397eb9;
@@ -289,7 +289,7 @@
                                             src="/images/icons8-date-80.png"
                                             alt=""
                                         />
-                                        <span>2023-09-23</span>
+                                        <span>2023-10-12</span>
                                     </div>
                                     <div
                                         style="
@@ -311,13 +311,13 @@
                                         alt=""
                                     />
                                     <span
-                                        >27 Lê Hồng Phong, P.Nguyễn Thái Học,
-                                        Thành phố Yên Bái, Yên Bái</span
+                                        >5B Nguyễn Công Trứ - KP5, Lagi - Bình
+                                        Thuận</span
                                     >
                                 </div>
                                 <div>
                                     <a
-                                        href=""
+                                        href="https://goo.gl/maps/UuREuBNqi644JB2D8"
                                         style="
                                             text-decoration: none;
                                             color: #397eb9;
@@ -343,7 +343,7 @@
                     <div class="inner">
                         <h2>Save the Date</h2>
                         <span>For the wedding of</span>
-                        <h3>Ngọc Thiện &amp; Thùy Linh</h3>
+                        <h3>Ngọc Linh &amp; Phương Uyên</h3>
                         <p>
                             Một lời chúc của bạn chắc chắn sẽ làm cho đám cưới
                             của chúng tôi có thêm một niềm hạnh phúc!
@@ -643,7 +643,7 @@
                 <div class="couple-pic"></div>
                 <div class="inner-bottom">
                     <h2>Thanh you!</h2>
-                    <span>( Ngọc Thiện - Thùy Linh )</span>
+                    <span>( Ngọc Linh - Phương Uyên )</span>
                 </div>
             </div>
         </div>
