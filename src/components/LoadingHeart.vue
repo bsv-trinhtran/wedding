@@ -69,7 +69,7 @@ $circleW: 60px;
     display: block;
     left: 50%;
     top: 50%;
-    margin-top: $size/-2;
+    margin-top: calc($size / -2);
     width: $size;
     height: $size;
     overflow: visible;

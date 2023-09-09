@@ -30,7 +30,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/swiper-3.jpg) no-repeat
+                            background: url(/images/NPT07426.JPG) no-repeat
                                 center;
                             background-size: cover;
                         "
@@ -40,7 +40,420 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/swiper-2.jpg) no-repeat
+                            background: url(/images/NPT07499.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07515.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07531.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07571.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 35%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07595.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07635.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 45%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 8 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07679.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 50% 25%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07696.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07706.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07714.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07716.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07727.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07732.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07740.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07743.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07761.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 18 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07805.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 35%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 19 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07827.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 20%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 20 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07872.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 35%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07878.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07881.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 23 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07900.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 25%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 24 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07906.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 25 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07910.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 45%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 26 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07925.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 25%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07927.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07955.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07957.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07977.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 31 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08000.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 65%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08015.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08027.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08091.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 35 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08102.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 35%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08145.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 37 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08146.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 45%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08162.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08187.JPG) no-repeat
+                                center;
+                            background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 40 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08223.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 90% 65%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <!-- 41 -->
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08230.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 50% 100%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT08251.JPG) no-repeat
                                 center;
                             background-size: cover;
                         "

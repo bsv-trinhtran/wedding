@@ -20,7 +20,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/swiper-3.jpg) no-repeat
+                            background: url(/images/NPT07732.JPG) no-repeat
                                 center;
                             background-size: cover;
                         "
@@ -30,9 +30,29 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/swiper-2.jpg) no-repeat
+                            background: url(/images/NPT08027.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 55%;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07955.JPG) no-repeat
                                 center;
                             background-size: cover;
+                        "
+                    ></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div
+                        class="background"
+                        style="
+                            background: url(/images/NPT07426.JPG) no-repeat;
+                            background-size: cover;
+                            background-position: 60%;
                         "
                     ></div>
                 </swiper-slide>
@@ -61,29 +81,7 @@
             <div class="couple-wrap">
                 <div class="groom-wrap">
                     <div class="groom">
-                        <img
-                            src="/images/d4f47c49ddc2b7b96ad03cef05b3c47c.jpeg"
-                            alt=""
-                        />
-                    </div>
-                    <div class="desc-groom">
-                        <h3>Huỳnh Phương Uyên</h3>
-                        <p>
-                            Cô gái đến từ tỉnh Nghệ An, hiện đang sinh sống và
-                            làm việc tại thủ đô Hà Nội. Sau khi tốt nghiệp đại
-                            học cô đã đi làm. Là một người hay cười nhưng lại
-                            sống nội tâm, thích đọc sách, trồng cây và yêu thiên
-                            nhiên. Ngoài ra còn rất thích vẽ vời, nuôi chó và
-                            nuôi ước mơ có cho mình một vườn hồng khoe sắc.
-                        </p>
-                    </div>
-                </div>
-                <div class="groom-wrap">
-                    <div class="groom">
-                        <img
-                            src="/images/ee4f7a467b5e037a0c3cb52127f61c36.jpeg"
-                            alt=""
-                        />
+                        <img src="/images/NPT07571.JPG" alt="" />
                     </div>
                     <div class="desc-groom">
                         <h3>Trần Ngọc Linh</h3>
@@ -95,6 +93,22 @@
                             chắc nhất và là bến đỗ bình yên không đâu sánh bằng
                             đối với mỗi con người. Đó luôn là nơi tràn ngập tình
                             yêu thương để ta trở về.”
+                        </p>
+                    </div>
+                </div>
+                <div class="groom-wrap">
+                    <div class="groom">
+                        <img src="/images/NPT07531.JPG" alt="" />
+                    </div>
+                    <div class="desc-groom">
+                        <h3>Huỳnh Phương Uyên</h3>
+                        <p>
+                            Cô gái đến từ tỉnh Nghệ An, hiện đang sinh sống và
+                            làm việc tại thủ đô Hà Nội. Sau khi tốt nghiệp đại
+                            học cô đã đi làm. Là một người hay cười nhưng lại
+                            sống nội tâm, thích đọc sách, trồng cây và yêu thiên
+                            nhiên. Ngoài ra còn rất thích vẽ vời, nuôi chó và
+                            nuôi ước mơ có cho mình một vườn hồng khoe sắc.
                         </p>
                     </div>
                 </div>
@@ -174,19 +188,19 @@
                 </div>
                 <div class="date">
                     <div>
-                        <h4>52</h4>
+                        <h4>{{ days }}</h4>
                         <p>NGÀY</p>
                     </div>
                     <div>
-                        <h4>52</h4>
+                        <h4>{{ hours }}</h4>
                         <p>GIỜ</p>
                     </div>
                     <div>
-                        <h4>52</h4>
+                        <h4>{{ minutes }}</h4>
                         <p>PHÚT</p>
                     </div>
                     <div>
-                        <h4>52</h4>
+                        <h4>{{ seconds }}</h4>
                         <p>GIÂY</p>
                     </div>
                 </div>
@@ -204,10 +218,7 @@
                         <h3 class="text-center">TIỆC CƯỚI NHÀ NỮ</h3>
                         <div style="display: flex; gap: 30px">
                             <div class="image-wrap">
-                                <img
-                                    src="/images/ba9fa84f3011b84a3488f0e966a60314.jpeg"
-                                    alt=""
-                                />
+                                <img src="/images/NPT07925.JPG" alt="" />
                             </div>
                             <div class="event-title">
                                 <div style="display: flex; gap: 20px">
@@ -271,10 +282,7 @@
                         <h3 class="text-center">TIỆC CƯỚI NHÀ NAM</h3>
                         <div style="display: flex; gap: 30px">
                             <div class="image-wrap">
-                                <img
-                                    src="/images/ba9fa84f3011b84a3488f0e966a60314.jpeg"
-                                    alt=""
-                                />
+                                <img src="/images/NPT07805.JPG" alt="" />
                             </div>
                             <div class="event-title">
                                 <div style="display: flex; gap: 20px">
@@ -370,10 +378,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="/images/383875f7dbad0c73b240243aeecb74dd.jpeg"
-                            alt=""
-                        />
+                        <img src="/images/NPT08000.JPG" alt="" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -399,10 +404,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="/images/604b9769d7be40d0d5bad7c5265dc849.jpeg"
-                            alt=""
-                        />
+                        <img src="/images/NPT08162.JPG" alt="" />
                     </div>
                     <div class="timeline-panel right">
                         <div class="timeline-heading">
@@ -428,10 +430,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="/images/eb13d6af3ecce1c4c852a6b09913bdca.jpeg"
-                            alt=""
-                        />
+                        <img src="/images/NPT08223.JPG" alt="" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -455,10 +454,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="/images/15be4c2cfb762806d02a699688cbe2c2.jpeg"
-                            alt=""
-                        />
+                        <img src="/images/NPT07827.JPG" alt="" />
                     </div>
                     <div class="timeline-panel right">
                         <div class="timeline-heading">
@@ -510,25 +506,25 @@
                 </div>
                 <div class="grid">
                     <div class="grid-item" style="left: 0%; top: 0px">
-                        <img src="/images/small.jpg" alt="" />
+                        <img src="/images/NPT07977.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 0px"
                     >
-                        <img src="/images/small1.jpg" alt="" />
+                        <img src="/images/NPT07805.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 66.6667%; top: 0px"
                     >
-                        <img src="/images/small2.jpg" alt="" />
+                        <img src="/images/NPT07426.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 259.75px"
                     >
-                        <img src="/images/small3.jpg" alt="" />
+                        <img src="/images/NPT07906.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
@@ -538,25 +534,25 @@
                             top: 293.594px;
                         "
                     >
-                        <img src="/images/small9.jpg" alt="" />
+                        <img src="/images/NPT07955.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 560px"
                     >
-                        <img src="/images/small10.jpg" alt="" />
+                        <img src="/images/NPT08102.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 819.75px"
                     >
-                        <img src="/images/small6.jpg" alt="" />
+                        <img src="/images/NPT08251.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 1120px"
                     >
-                        <img src="/images/small7.jpg" alt="" />
+                        <img src="/images/NPT07595.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
@@ -566,13 +562,13 @@
                             top: 853.594px;
                         "
                     >
-                        <img src="/images/small5.jpg" alt="" />
+                        <img src="/images/NPT07679.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
-                        style="position: absolute; left: 0%; top: 1379.75px"
+                        style="position: absolute; left: 0%; top: 1390.75px"
                     >
-                        <img src="/images/small13.jpg" alt="" />
+                        <img src="/images/NPT07714.JPG" alt="" />
                     </div>
                     <div
                         class="grid-item"
@@ -582,7 +578,17 @@
                             top: 1414.31px;
                         "
                     >
-                        <img src="/images/small8.jpg" alt="" />
+                        <img src="/images/NPT07878.JPG" alt="" />
+                    </div>
+                    <div
+                        class="grid-item"
+                        style="
+                            position: absolute;
+                            left: 33.3333%;
+                            top: 1380.31px;
+                        "
+                    >
+                        <img src="/images/NPT07635.JPG" alt="" />
                     </div>
                 </div>
             </div>
@@ -716,6 +722,40 @@ const isModal = ref(false);
 const name = ref("");
 const loichuc = ref("");
 const arrayLoiChuc = ref([]);
+const days = ref();
+const hours = ref();
+const minutes = ref();
+const seconds = ref();
+const countdownDate = new Date("2023-10-12 11:00:00").getTime();
+function addLeadingZero(number) {
+    return number < 10 ? "0" + number : number;
+}
+const countdownInterval = setInterval(function () {
+    const now = new Date().getTime();
+    const distance = countdownDate - now;
+
+    if (distance <= 0) {
+        clearInterval(countdownInterval);
+        document.getElementById("countdown").innerHTML = "Hết thời gian!";
+        days.value = "00";
+        hours.value = "00";
+        minutes.value = "00";
+        seconds.value = "00";
+    } else {
+        days.value = addLeadingZero(
+            Math.floor(distance / (1000 * 60 * 60 * 24))
+        );
+        hours.value = addLeadingZero(
+            Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+        );
+        minutes.value = addLeadingZero(
+            Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+        );
+        seconds.value = addLeadingZero(
+            Math.floor((distance % (1000 * 60)) / 1000)
+        );
+    }
+}, 1000);
 
 setTimeout(() => {
     isLoading.value = false;
@@ -771,6 +811,7 @@ const get = async () => {
 };
 onMounted(async () => {
     await get();
+    // countdownInterval();
 });
 </script>
 <style lang="scss" >
@@ -1005,7 +1046,7 @@ onMounted(async () => {
     }
 }
 .the-countdown {
-    background: url(/images/3f412efaa58ff70f77ef2ed57a020073.jpg);
+    background: url(/images/NPT08187.JPG);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1135,15 +1176,14 @@ onMounted(async () => {
     }
 }
 .invitation-section {
-    background: url(/images/f19654e3bd1ede3db14f23e72d97fe8d.jpg) center
-        center/cover no-repeat local;
+    background: url(/images/ab4.jpg) center center/cover no-repeat local;
     display: flex;
     justify-content: center;
     position: relative;
     &::before {
         content: "";
         position: absolute;
-        background: rgba(206, 205, 175, 0.42);
+        background: rgba(206, 205, 175, 0.3);
         height: 100%;
         width: 100%;
         top: 0;
@@ -1326,7 +1366,7 @@ onMounted(async () => {
     }
 }
 .countdown {
-    background: url(/images/b3d7bb00d0d69e868cd3710898313a60.jpg);
+    background: url(/images/NPT07740.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -1359,6 +1399,7 @@ onMounted(async () => {
         line-height: 1.4 !important;
         font-family: "Playball", cursive;
         position: relative;
+        text-align: center;
     }
     p {
         color: #ffffff;
@@ -1439,7 +1480,7 @@ onMounted(async () => {
     }
 }
 .wishes {
-    background: url(/images/104fe53d34b691ecddaf8f23ff9541b4.jpg);
+    background: url(/images/NPT08146.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -1539,8 +1580,7 @@ onMounted(async () => {
     }
 }
 .site-footer {
-    background: url(/images/09251e5d8b6cdb1d05a660a54e144685.jpg) center
-        center/cover no-repeat local;
+    background: url(/images/NPT08251.JPG) center center/cover no-repeat local;
     text-align: center;
     height: 100vh;
     min-height: 900px;
@@ -1715,6 +1755,9 @@ onMounted(async () => {
                 .desc-groom {
                     p {
                         width: unset;
+                    }
+                    h3 {
+                        font-size: 29px !important;
                     }
                 }
             }

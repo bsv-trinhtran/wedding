@@ -39,28 +39,22 @@
                     <div class="donate-box">
                         <div class="donate-card">
                             <h3>Mừng cưới đến chú rể</h3>
-                            <img
-                                class="qr-code-image"
-                                src="https://cdn.biihappy.com/ziiweb/website/64e86bff0531c1124f09ac52/b10c816434c872634feda729c1931868.jpeg"
-                            />
-                            <p>Ngân hàng: <strong>VIB</strong></p>
+                            <img class="qr-code-image" src="/images/qr1.JPG" />
+                            <p>Ngân hàng: <strong>VietinBank</strong></p>
                             <p>
                                 Tên tài khoản: <strong>TRAN NGOC LINH</strong>
                             </p>
-                            <p>Số tài khoản: <strong>001741516</strong></p>
+                            <p>Số tài khoản: <strong>103873285674</strong></p>
                         </div>
                         <div class="donate-card">
                             <h3>Mừng cưới đến cô dâu</h3>
-                            <img
-                                class="qr-code-image"
-                                src="https://cdn.biihappy.com/ziiweb/website/64e86bff0531c1124f09ac52/b10c816434c872634feda729c1931868.jpeg"
-                            />
-                            <p>Ngân hàng: <strong>VIB</strong></p>
+                            <img class="qr-code-image" src="/images/qr2.JPG" />
+                            <p>Ngân hàng: <strong>VietcomBank</strong></p>
                             <p>
                                 Tên tài khoản:
                                 <strong>NGUYEN PHUONG UYEN</strong>
                             </p>
-                            <p>Số tài khoản: <strong>001741516</strong></p>
+                            <p>Số tài khoản: <strong>0251002756663</strong></p>
                         </div>
                     </div>
                 </div>

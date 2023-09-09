@@ -4,7 +4,7 @@
             <img
                 style="max-width: 350px"
                 class="w-100 border border-danger p-1 mb-5 border-2 rounded-circle"
-                src="https://cdn.biihappy.com/ziiweb/website/64e85fc1511dc09741041d20/db63a2026b76ce1588c4a58b5559537c.jpeg"
+                src="/images/NPT07900.JPG"
             />
         </div>
         <div class="body-text">
@@ -101,8 +101,9 @@ const post = async () => {
         max-width: 350px;
         padding: 0.25rem !important;
         margin-bottom: 3rem !important;
-        border: 1px double red;
+        border: 2px solid red;
         margin-top: 28px;
+        aspect-ratio: 1;
     }
 }
 .body-text {
