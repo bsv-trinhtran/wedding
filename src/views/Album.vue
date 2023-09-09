@@ -66,7 +66,7 @@
                         "
                     ></div>
                 </swiper-slide>
-                <swiper-slide>
+                <!-- <swiper-slide>
                     <div
                         class="background"
                         style="
@@ -75,7 +75,7 @@
                             background-position: 90% 35%;
                         "
                     ></div>
-                </swiper-slide>
+                </swiper-slide> -->
                 <swiper-slide>
                     <div
                         class="background"

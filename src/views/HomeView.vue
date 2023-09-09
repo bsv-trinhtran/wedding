@@ -81,7 +81,7 @@
             <div class="couple-wrap">
                 <div class="groom-wrap">
                     <div class="groom">
-                        <img src="/images/NPT07571.JPG" alt="" />
+                        <!-- <img src="/images/NPT07571.JPG" alt="" /> -->
                     </div>
                     <div class="desc-groom">
                         <h3>Trần Ngọc Linh</h3>
