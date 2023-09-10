@@ -4,7 +4,7 @@
             <img
                 style="max-width: 350px"
                 class="w-100 border border-danger p-1 mb-5 border-2 rounded-circle"
-                src="/images/NPT07900.JPG"
+                src="https://lh3.googleusercontent.com/pw/AIL4fc_qjGb1pFEXn1M-KqltrHaB42S3uoZ9-ChkVS2lNecU_YuJAZ-bTf-ZDW5nrPdWxpaE5zJ5SyvXiH3ZByYrsvrdwDfDsm9ZMCAm6wrsEosUcqznQwCi9dMxz-UNIrW9sUx8SZ6rmVvmzmrDp1aU-BXBEsP_Pfe5JiOfQ4kp22SR1MuE8BhR02G_vnndRmLQl2iceO8ZtMe-s7d9La2ATuQE3cwY5SxfPnK-g5Dn8PkY551xbvqNbXKf_qju96y7IauOQcmovm2toRIzhZ3oSG6HiECSrgfLl9oPBr039KfM3CdVnGgzCl7SKxyLJkaF5garagZVLQppH3U5AkL_zyeP7FSk6ZZr3eJrkmBoOyR9G3mRfRlI0VysexHu_1zw6xnrhyGDpPzselCKFDibc0ZhHC-rmqTMaNn64kYao8JyWqHxyJSA8X0Tr-5GKnVhwoonX3sdobK9LlB49n7dA6_0k0xJsyhJdWgM6Lwx24WeoT04so52F8xu2USnRs1GxoB1xA21qrVAle5zCwFlSy78X37rXBLhe-SRZfo4YpCzNRC880EKZg2S2FLMmZ2QRrrmwh1u8OvDRriA5fH22iENOdCtRPDbzSFzJR5yO7oTqmshUkiQOoz27cHvtCRwgQfYaxHWg082uaF6U9oEWH_wg0bXtF1OcmhU08nJzrLTA3K5Ser_qffrAVaqoHI1_7x_Dbm_1CvfAxE9eORGW7mcR_gX2iavcOe-TvrYBYXewA3faxUyOZOKedLU3EBsjIx1CpEae9y1uVaFBSOJFqe42TyT4GFSbFiVbXRNRYUfRxAGaSHSDH3SAs0MB2duSUG8UiyDbCFgRI5VCTHFGEF_HERtqTjfu11U9Wl24Yww_Y0Mvv8on1khb2cYTyA-JjLnhV49URRlcOYE_VFR7DYs14RIaU4EMtBl5_ANT7GyLflsWXq8iCh8P9JIWROr1DZ67RonM_FcO3kDunfACrLH7h-YhoJ51HdmT-CxDcxhNUm0UfKSqRYJHqWVj5Kona4=w649-h973-s-no?authuser=0"
             />
         </div>
         <div class="body-text">
