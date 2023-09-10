@@ -39,10 +39,7 @@
                     <div class="donate-box">
                         <div class="donate-card">
                             <h3>Mừng cưới đến chú rể</h3>
-                            <img
-                                class="qr-code-image"
-                                src="https://lh3.googleusercontent.com/pw/AIL4fc8Q1DBGMJRvhdladLuCQ80LyzZX6E14RoMJHRsA2NMSUdH8sf3qD_-bdBaYIft_6mpg7L-VqN57oSM_i2zjmtfjeCx6rhba0KihjviCeL6wvmSGp7rRCa3H9IvExbKacypYR1DfwPKWW8IHt0nhnbO7_IvIB_OEii0wUWrxF3VEDoAdWYCX4iiCKCMBiiFR1945RjkK9AE2wIEKJYNkBc1QNwIA039uD6efGFcq_DLLAKwQxzazagR5dCcViw6zTgB9FjsjoDgktyYPCkTI4Yedc27UjuO6u_weTDZt65L_AF1YWUqQYmBrhu3z1j-6icfhT6FdECrQtH95-CFGezJ2CnL3qCgX4gU-3ldLmSPOLxGI8HYdMcYTTReRLDvE_mtn46zT2Fd3XLkuq5DDD8bmleLx85B74h2NtS_bczsnZ22AsBW_01dtB-h-F3yeFycPnW7MLaUfoqMa969GKpfhwVsCVB98Wi4zYwXyv5nSgEqm77n7iaxV2lY4iIXRcZ_HVF8CGRE8jKPTRT9r-PndrtlOy7SbDbldIPbY1sofqyv4_hn7gqN_Vmu75xJDcIcmCrUuzLoml9x1IaISlXbb05Ufg1vtJ1sl6ytcIUgXOMUdps-sHT_NRXqpOt-Z98GKxONkCQ0e9AmmjUxFhDnwUxO4qG42sp0Y0esHRsVj2rt1gzZOsStN1ltUcqi_1FAocT0PLR5A1DPtB3ksSm0qt4s0gIMM60DqIuDSpq7F0hHPTYc7QIqD2IVQq1fSr-jy8Ls80sQXNK9MYIXFjtzXrvczLHCYFnPfobMtotv5GdQfMRUx83DmBFZKRR8fP1iPksQ7-NhvwCatm6A_5AVGi27MGwEBEJB5y14Ak358Q0aSqVNT8Zdf7JWunyOHnR40Fx-CPi8iZR25LWeRFaoG1olOi9qjK2n2yB_00lTBaPRnCARfEGXmtVK9Q-4LATXq32hu80SDJhObO0ghEp-ADym9u2Je3wqhlHd8X9LJgOQOePGU_6nDbkWhgs2RNNc=w280-h273-s-no?authuser=0"
-                            />
+                            <img class="qr-code-image" src="/images/qr1.JPG" />
                             <p>Ngân hàng: <strong>VietinBank</strong></p>
                             <p>
                                 Tên tài khoản: <strong>TRAN NGOC LINH</strong>
@@ -51,10 +48,7 @@
                         </div>
                         <div class="donate-card">
                             <h3>Mừng cưới đến cô dâu</h3>
-                            <img
-                                class="qr-code-image"
-                                src="https://lh3.googleusercontent.com/pw/AIL4fc9OLO1rXZq2qCfkTp6chgzoqOiDdsrSUnu6Dsudtl2NdSyeaf6S1N_PKwX2qpm1fy8KMhkjkfQI8Xv4-m1fGAo66Egjnd-rIotyY7psyhofb-hR0XyhtUIGppG3v6sYUGMQW_cQWnrpPX6dHw_p62CUI0ZAWGIIqxbPAW3JAL4Hqa2LZnKhl8u0-HwDoUR8V2CojAZT5rDfRt1pG3v5Ux1YifZzaIMOvzbwhSWoZOvBoeCubwgmRsDYZPrBrd-nm6-BVD4g70SYV7bzawCwYXuSnhGhrC6L9Bo_ydJ9SAqyDJtg9Wc4kskyad78tVYUpJ_eAqga3qQ6rSXOhrNrnXY-lig9w_50dRBUg5jVCy-V8MFjzjieS3KKq0EIR8XE1OQlnr0Yr4ri402S-yJ3NuH2E2K3xdntnVu0TjNL4Bbs5U9M34ApxflvlEj_y_9OcI_7wz5YDLa-MzwpU4f6zb7cI7Y9YzEBWzMw_Ag7yiORL8n_FKqNLa-rYAipSIHifIe1ltnOIR_eIy4W-YSs3CDAtvVDTHvOcegT7Y-pWft6FlMdGgDwauUhBeVIprYGKcJ-4UQ8_4sVaa7Iw7Dvtf_7GpGf9-Gc6SB-n2nT8-cytf6Mavn7AcA00T3V-yFJ1YMMivydSoJ40Rc1VpavpKmyf8jvp4iQ_shDUtwIlfqeJEaBnno5DPejBAgTvcWOAxIZYf1A5F0s-eT8McC4XM5XhljJmWMy-HmvWqSMircWHm0iXVOv9ndsV3Yj2sTFj_Psc_rB7Iz_Ek8edStKXz_m0m6wUm6T_2iwSkIWTu9YNG_8dx9zfxN5W3A-59EBssFgnB8jUhPWAVARteXAGX1TBdlrcGAXPICzsuVeAtNxWxwk0SbXwjB1TEZP87JKz7xsqsL92SGQxx52b54vRbXadhvBM4t-A9GCGx7poR9VAKCgDd5EuFXKK9RnYtnPW-Vj1n6XrOz-6TmPihz1otghDpzKzZ7UnTQdAHQ5zdGTSyJi6kOSWg-RDb0lzRy8ows=w538-h531-s-no?authuser=0"
-                            />
+                            <img class="qr-code-image" src="/images/qr2.JPG" />
                             <p>Ngân hàng: <strong>VietcomBank</strong></p>
                             <p>
                                 Tên tài khoản:
