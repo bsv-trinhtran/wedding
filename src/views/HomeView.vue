@@ -20,8 +20,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://lh3.googleusercontent.com/pw/AIL4fc96Cx9cJoOt7REtMCiFPhHultWRDU9nPtWOrVOmTxPRgVhLswPN9J6mlxMWUYxjvzTfG8KBMiszKVSWY0SvI3SZGiKc9bOawqXlNwjxjQ_pweEeOWo-jClecsFaOhSC1Sk0lHZESP1o3uAwcenxZIygKoOL2a_KvBZdvc8YlEPJF6KpY2zsPRpmtkSxWf4uuij4Qt03oG8mwZpM0YkgZ5XZna_Q9lastUlp1whXc0WI84SR6M3gUT_f92aTYUXOVRZ5fkqExKSZYucvtsodL5Ba77jFCatnS6_uGqBOuwLWIdX2JvPwxvFA2_UdvwWZ8JS2dr2hEgqtsnkKPnb3cgFQRkXfYxH2Yj7mXM1-91mDagGDQlud-whR05My6i51OnGnjeGV-igmQ0bqxqFZN1NZE7OsaoQuh79GJ-M63QykXxKKoLU0xzmKE1vy9yxytqWPIQyAGLbCsizAB2dC71zgaQ6kqWTagG-CZPA0lZGDsaufv9JIldlI7WkHEqVe83m_oJU416yLSvcelKxfnm3_2rCrZTIN0AH-Arc_VJ8WU54Dcs30Xrra-6WkrAvytRZsMMRGufTmpf2-1-FKPBYe4GuwY9CZqPcKY5PriwJb2L6QCBwB7j88gd1RPz1yjXR7mOclV3xKJ6U3ybDQhLWinVQ-B6YlFR-W0YzyepNLMbPmH0SW_Rg_d8MF4X_xdFAtHog96mHihU8KiVxX22E6Za3-R0P-ta6cUdtTtUgi3Zx0cESLpy77nU8URHYuvsalSErEZhmlzlfIeOSuVIdusWq9dEnf3htcKUA-sZ-XTp_bKoDvn-wXjtvOFymu7mZxrIC2Ifcf0k6ETEzPZ2Z82ZHk7aQzIGr4C22Re6eYFvLbirEt-a8XCLtnlJU8W6q6vseWH4HFKqBqJRcklNqn3ICEPqoMN9_cJPMAX316h2oVpSHqObIQJhs769rhjYKyyzJDnH3r8Q80NY-ED0WWGh9jzZmWL6oRi4J8Wn7sVZYNcLnJouQvWA020Je5vJo=w1460-h973-s-no?authuser=0)
-                                no-repeat center;
+                            background: url(/images/qr1.jpg) no-repeat center;
                             background-size: cover;
                         "
                     ></div>
