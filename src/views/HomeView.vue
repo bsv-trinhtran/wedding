@@ -20,7 +20,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/qr1.jpg) no-repeat center;
+                            background: url(/images/qr1.JPG) no-repeat center;
                             background-size: cover;
                         "
                     ></div>
