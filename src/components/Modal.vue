@@ -39,7 +39,7 @@
                     <div class="donate-box">
                         <div class="donate-card">
                             <h3>Mừng cưới đến chú rể</h3>
-                            <img class="qr-code-image" src="/images/qr1.JPG" />
+                            <img class="qr-code-image" src="/images/qr1.jpg" />
                             <p>Ngân hàng: <strong>VietinBank</strong></p>
                             <p>
                                 Tên tài khoản: <strong>TRAN NGOC LINH</strong>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="donate-card">
                             <h3>Mừng cưới đến cô dâu</h3>
-                            <img class="qr-code-image" src="/images/qr2.JPG" />
+                            <img class="qr-code-image" src="/images/qr2.jpg" />
                             <p>Ngân hàng: <strong>VietcomBank</strong></p>
                             <p>
                                 Tên tài khoản:
