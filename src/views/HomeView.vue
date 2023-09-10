@@ -20,8 +20,8 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07732.JPG) no-repeat
-                                center;
+                            background: url(https://firebasestorage.googleapis.com/v0/b/vue-firebase-wedding.appspot.com/o/NPT08251.JPG?alt=media&token=a0fac264-6e50-4240-847e-223c1fa2948b)
+                                no-repeat center;
                             background-size: cover;
                         "
                     ></div>
@@ -30,7 +30,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT08027.JPG) no-repeat;
+                            /* background: url(/images/NPT08027.JPG) no-repeat; */
                             background-size: cover;
                             background-position: 55%;
                         "
@@ -40,8 +40,8 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07955.JPG) no-repeat
-                                center;
+                            /* background: url(/images/NPT07955.JPG) no-repeat */
+                            /* center; */
                             background-size: cover;
                         "
                     ></div>
@@ -50,7 +50,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07426.JPG) no-repeat;
+                            /* background: url(/images/NPT07426.JPG) no-repeat; */
                             background-size: cover;
                             background-position: 60%;
                         "
@@ -1642,7 +1642,7 @@ onMounted(async () => {
     }
 }
 .site-footer {
-    background: url(https://lh3.googleusercontent.com/pw/AIL4fc-9iiEbzg2I0DGO6IHH0pSpxHSp05_ZJ6YDvLNVpiC2vahDkfdeWAdNlCvn1ik4X9qV34a-x4oCggr1tBTW47R0sfDTroFm2vgs3Nm5MA5gbwnEhqQ1az_nDWSQF4Jx3RxwUYIHUrgo5jvgBvigDAQ-bNPxHcEPTFpoUKkqIvDxkijx1_4edg-zdkJI-xhvHysxerpdyF4YtQ9AKQNCBMydKrK-S_RA6IObk7gL1IfXjfseqsn2gSrhFDOrN4opPoGx7xHZ41Bq4fz3cfVqEbTSvYujIdXbw1iozLZJmETsF3xhPJ23UPZdF_J6y7bY0HTFcQa2wXEOtbAqF7mYZZn7yAYCcyuadzVQSX6KtQ4gBjl_pDKCAAAI8Onhc7LDvyBEEZ5q2eXSB8U3fLfXRwBQtiJREv4Uhdq6SBC0wU1-uZ5O0yWscOZD94rGjafs59m27Vg5tafYGNvpMswaQ7WOmhJHbt6FVjOcqo1VaFIz5VPalWg5hDo0XGCxgCGv0zDFcWfl4kPswjKkqCSUjqs5jWGHTmopG9zBMBVgCwor2BaVB2sfh_UgJeJVebN-5l0-1bJ0dqVULg_Sbvekg7BV8_TIDL3Yo6umru-BVV_P5JIt6s-YOXvSB_WoDyFu8puS4Kz3qGCBzu_S7HRTuqHNZ8kZmIZAVV4IjsnWEC0p4uLSULWpTqexxawb5XVxRwSF6NNEaWE8gF9rBK_sr71HG4M-vIFZrWtYkuc44msCvqIF0eUo9VumhfL0NOjvu0m3X0yx84fKNP2YmYGU-jPATvYBCR_U2ox4W_HKuNgcG18vdSMTZ98YB_c9Uky_KiMuIbIeWZgDaRAqmJhBBFHuWTUT8P-k7G9FB6uuOUu0iLa-U9vactvMaKTHBeeNEhzYaeOrD3UNx3_NkHGKPyF940IyIyCRUO1S4iq6MgLKbPmrFibWRD-OSPpp7nbT8HmDgaEy20qztMPwfOiCZvq6XmrDXOHku-C70l3s7SioE6t4VqK2mCNVhmQVawSOBdQ=w649-h973-s-no?authuser=0)
+    background: url(https://firebasestorage.googleapis.com/v0/b/vue-firebase-wedding.appspot.com/o/NPT08251.JPG?alt=media&token=a0fac264-6e50-4240-847e-223c1fa2948b)
         center center/cover no-repeat local;
     text-align: center;
     height: 100vh;
