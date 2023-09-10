@@ -20,7 +20,8 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/qr1.JPG) no-repeat center;
+                            background: url(/images/NPT07732.JPG) no-repeat
+                                center;
                             background-size: cover;
                         "
                     ></div>
@@ -29,8 +30,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://lh3.googleusercontent.com/pw/AIL4fc-bxQYFRsAldQVsSOEdnEuhhIUUSXfhdhvY1EOlw4EWaDGIJYr74nV0nRIYzY8K5H961YHQkgDNDW0aNsYz7a-FdGTCTVbdFTJKn9onqG6lIO899yZOzT3qFhU4vURNnb_R5E_grhRAMUfUaAzPnQgA-5XXTGlk2i5G3wsass6JtJdfNBjsVnXOEVibCYaj6b2GFRF8wwBkss1WFimrj8frEJ-n4QeiVkniA8j9ouaxjUPkJz9N6RlUKgvYS60wcw-ymIQ2iSV4abVXB3DZzhCGRqr1RMwd_BFaZMabwVCGNyazxQHWWffOwtZPmuSsUbw6-N525rF6YIJ4tHQVho3MfgDYkfA1HiFUJy5ZoOVHHlu7Y4IwqXAafrrEHR_5R7_M13MSASaU5rFgiQ8rNDMHHl24yOTkBOQtXCnOjP0Y_DKa0-euw5eQ57CmguK7ARqrtJVMt0R7W-7vhBXcHYLd_JNUr19lPz0dQTvICekWAuMDAmQENQnRPg9HZzwn2ztFhVnZ3NcbbPHvcbqs_NAADwA2fr3kkO5TUpTh0v4sCvfVL3cVe5P4_9Vdwr2h6R0VMtt0afRZf2WOL8juWg_s3Niir6SCyc8mqDI8qwSoLUARbYnJiwHl0-Fe3bPSx4YVdG1VF9HvnwMK0t6glOu2CKMFfmWwGpVN74H271poJk08IqQXQZ-jTAUQcU8a3MQnKPPprz0vl-UXSAZYAJT7RBBO07jre-rOwFSlvMffJ8CjQ7kmjx1K4BJLIrAz_yoEYvof3CH3eGoFcv3VkVFUkk2uzwkRFi3AK9CRD7_xG1hLzyURi-bfxDs1xWeseIFa8PYbUbsPdsTVqe27CD1WnQJBsnWGauH_8SMxnSEUnjOTyVpeeal4vSbzFmpaK-nPBRZJOw8BPkwGqo3-sYFGVOvSGzQA9d1zOzHLHBKcZlUVEBvmbshWSxmL9-tn30HsF1EgYCoLYU5E51wMdlPcjFB3opopjWY29-Itm9gr_SjA6PJa2-vGEY-Lbq8Js_s=w1460-h973-s-no?authuser=0)
-                                no-repeat;
+                            background: url(/images/NPT08027.JPG) no-repeat;
                             background-size: cover;
                             background-position: 55%;
                         "
@@ -40,8 +40,8 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://lh3.googleusercontent.com/pw/AIL4fc_epNelhDYG1vsZnfU-wLTsUPZWNqe2C5PzqusJCq8OCGYNBINilAU-bUpUjRhk7OuhF8CFg61jtYDbzo3vp-9F9KfgWjSjEUfDmjHsyx1C_IGkshnGoKuIlxuSmWCZiHt-OZUJSHkw13TVZLb3p1tgAzTUujCkV8VjamS8aM1pLI9Qsmjgw1vqXaQdsot8Pswnp8c-LHQhvCi8HDx-DW8YMpHSMbJUXaR3Y5zXkjXkX_7S2w4ebj0kb4ymIGcsqhbJdHgG8LsHcCd8zPMjdJuQAHbtuWFPCEAOurT9mG02mXpJqTsZTT5QjjzDd5o8Sw6ns3bTQA_tDQUPk-jt4L8RMYx19hSYWHGiDD3SVssNAHrT7jVYEQtblhmbIqpM1pxoliiSX0Uu26Gq0bhdRGFiabRWLb_841LYzdlRShkp2rGOeBDm7E4aES5nDxkNsFR56gu6_DBD2-Owct77Xcz8dVNpJ-LrbxFeHUjINzcEJCr9uW8S7v4yiru6N_GevpUpLDJ6PN3oLM1h95J4PWjxG9ltdpFD2p11eh7eU5rmvVUtakT3MKUjcmyrDIBuP4ef8yhzjqsrNR9OgbZrWmdQlt6JlbOZUQs0xWEePDDYeaVcJrONBZOjoxCnkKCc6fHFN4qadbIVUBkGBmClTGcD_oTvJXQNLW9k18B-rAqL1T3UGO-I2FrqBxBzH0PWSyXAxIcGOVrxRBZ7u8PpfKb_DY16paR_VQVPutcOoswXfzhqnO2Cj8v1aV6FBAjdZsYEmhKbd8mhf8WpxAEsGHOioSN_DdfG9ihiuUKJd_wG5zcQeOMW1HxWK43SWO_4fWLpZQrs9VOagzpRWQkrJsFXbUeVLJwAxRAgRiDrIdc_nAU0EhKdLnh2me2j9aNuWvtQAfR_BwWbicEpWMcUPjk1ugkty8hSAmI5Ixywzg8lsfBQjdfxL_yBghxe4QrUpotNaKQgQEPxPK1KQrCz1weNaV9peZZ7M9yfER8eQCUO3Eq4_-mWH6C259kWHAp2BlI=w649-h973-s-no?authuser=0)
-                                no-repeat center;
+                            background: url(/images/NPT07955.JPG) no-repeat
+                                center;
                             background-size: cover;
                         "
                     ></div>
@@ -50,8 +50,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://lh3.googleusercontent.com/pw/AIL4fc_VVpWBENgtDJbMEr-FZJYstMNi6p6rS9TolaEeB5Im85n7LrVS1Po76bEH7SG6h-D_h5c0NsZ7DO1n5B5arIcRoe65i4vkycDoerck8u6Lk5PoEbwYLcuTangwDF46OxEVRyzuHGpzmDRA5EE8MpXaGqpOzYEUfPQnUoPDkFiSIeehck2_JA1IkMWfCMGYDmD8yWCyJsm4hvl1FAP__aG7X3Tvi7O1iEEfvMXKRr9aJXEX7bnLSqdY9xmQXCqjItoL_68ihHCeUXmosMrwcAOabcUS5qjN-tyhqRbg42rDlISIW1a2QRgidYII3DJs4fU0_hz-sIwFpVgB7CmhePd4QFaJ6qUo5iHvEVD0ow2UkA67n-KxnjTrmCJ4ZQwBU4zd4r70ZKR6TInpRxIrf3myglSE5cc_DoxcBYZQRQcUxb9ZGOwEjBYwWoUDXWghfx4AJ001dJCw0O_Osr-O5GA1zqb7dqjpgaA_yKbYwwkFhCsGyMiZ7NyqJ0_B23G7KQz19ieZV5y7Inbg8uNpEaB4sIpDClQrMgPgJnlEkVDPMP0koW8N_ThCz9I05XCimY71fMLmrJ1dzbR6UlpOgG3wDR484-ARfZCbHpKJdH3rFrmxP_Iyx9QPE2wW9fVIS2c_nYULUf89NW3EwpCSoUc95VeWQwWCQ_24tbL4Axqx2tazeXWa52ciPCjKsyZMGfbtseBsvY42Y_DdlMgjzSTE8tNec9FyWrUEvsWEaN6Z4kn3a7tlLENv10YAHe9yB9w1nPj-40u6R1DzpbPV8GmIuikzKzQ5-ntXXXZkRFNQn5GSiJvWAQ9j5KvnwcHgz224_trfG9hKlnfn1nRTHxtpkPLuUF_6leT85-6C_esQuIcSEFwr3C6sAM0G5w5ka2tQEizeRkRxtseYPY6Bt92f5JdeOyPIDFof4yQ8xX6VJbqcRLSnxXi7-o7QANorRtY-qug_ePLffjq0wUceXSTN0W-S9rGNCESpCnqZlDj5cvjKRAPtTu4Q94OiIhy3D6g=w1460-h973-s-no?authuser=0)
-                                no-repeat;
+                            background: url(/images/NPT07426.JPG) no-repeat;
                             background-size: cover;
                             background-position: 60%;
                         "
