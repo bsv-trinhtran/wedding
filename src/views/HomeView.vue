@@ -20,7 +20,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07732.jpg) no-repeat
+                            background: url(/images/NPT07499.jpg) no-repeat
                                 center;
                             background-size: cover;
                         "
@@ -30,7 +30,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT08027.jpg) no-repeat;
+                            background: url(/images/NPT07515.jpg) no-repeat;
                             background-size: cover;
                             background-position: 55%;
                         "
@@ -40,7 +40,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07955.jpg) no-repeat
+                            background: url(/images/NPT07531.jpg) no-repeat
                                 center;
                             background-size: cover;
                         "
@@ -50,7 +50,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07426.jpg) no-repeat;
+                            background: url(/images/NPT07595.jpg) no-repeat;
                             background-size: cover;
                             background-position: 60%;
                         "
