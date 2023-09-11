@@ -561,7 +561,7 @@
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 1120px"
                     >
-                        <img src="/images/NPT07635.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07595.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
