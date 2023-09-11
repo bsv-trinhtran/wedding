@@ -20,7 +20,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://firebasestorage.googleapis.com/v0/b/vue-firebase-wedding.appspot.com/o/NPT08251.JPG?alt=media&token=a0fac264-6e50-4240-847e-223c1fa2948b)
+                            background: url(https://firebasestorage.googleapis.com/v0/b/vue-firebase-wedding.appspot.com/o/NPT07732.JPG?alt=media&token=482f2318-7823-4f5c-9b82-ff3a0896f1e9)
                                 no-repeat center;
                             background-size: cover;
                         "
@@ -30,7 +30,8 @@
                     <div
                         class="background"
                         style="
-                            /* background: url(/images/NPT08027.JPG) no-repeat; */
+                            background: url(https://firebasestorage.googleapis.com/v0/b/vue-firebase-wedding.appspot.com/o/NPT08027.JPG?alt=media&token=d157d18e-08c0-49b8-9234-b5d1da564916)
+                                no-repeat;
                             background-size: cover;
                             background-position: 55%;
                         "
@@ -40,8 +41,8 @@
                     <div
                         class="background"
                         style="
-                            /* background: url(/images/NPT07955.JPG) no-repeat */
-                            /* center; */
+                            background: url(https://firebasestorage.googleapis.com/v0/b/vue-firebase-wedding.appspot.com/o/NPT07955.JPG?alt=media&token=5bd59eac-a97e-4f86-b014-b0aaa82dc026)
+                                no-repeat center;
                             background-size: cover;
                         "
                     ></div>
@@ -50,7 +51,8 @@
                     <div
                         class="background"
                         style="
-                            /* background: url(/images/NPT07426.JPG) no-repeat; */
+                            background: url(https://firebasestorage.googleapis.com/v0/b/vue-firebase-wedding.appspot.com/o/NPT07426.JPG?alt=media&token=201adc89-4c28-4cc6-b2dd-d0a0fca128f4)
+                                no-repeat;
                             background-size: cover;
                             background-position: 60%;
                         "
