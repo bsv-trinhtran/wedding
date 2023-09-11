@@ -20,7 +20,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07499.jpg) no-repeat
+                            background: url(/images/NPT07732.jpg) no-repeat
                                 center;
                             background-size: cover;
                         "
@@ -30,7 +30,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07515.jpg) no-repeat;
+                            background: url(/images/NPT08027.jpg) no-repeat;
                             background-size: cover;
                             background-position: 55%;
                         "
@@ -40,7 +40,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07531.jpg) no-repeat
+                            background: url(/images/NPT07955.jpg) no-repeat
                                 center;
                             background-size: cover;
                         "
@@ -50,7 +50,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(/images/NPT07595.jpg) no-repeat;
+                            background: url(/images/NPT07426.jpg) no-repeat;
                             background-size: cover;
                             background-position: 60%;
                         "
@@ -81,11 +81,7 @@
             <div class="couple-wrap">
                 <div class="groom-wrap">
                     <div class="groom">
-                        <img
-                            src="https://drive.google.com/uc?id=1Tvxu7H2pIWb_LvQ2_eW460FApWKYSZdg"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07571.jpg" alt="" loading="lazy" />
                     </div>
                     <div class="desc-groom">
                         <h3>Trần Ngọc Linh</h3>
@@ -102,11 +98,7 @@
                 </div>
                 <div class="groom-wrap">
                     <div class="groom">
-                        <img
-                            src="https://drive.google.com/uc?id=1tLOrdtsEDGWBAuf303xG4_gbCQisMfQA"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07531.jpg" alt="" loading="lazy" />
                     </div>
                     <div class="desc-groom">
                         <h3>Huỳnh Phương Uyên</h3>
@@ -228,7 +220,7 @@
                         <div style="display: flex; gap: 30px">
                             <div class="image-wrap">
                                 <img
-                                    src="https://drive.google.com/uc?id=1jKWBsyxhhbwmcSVQad0fYVBd-bcLGwPz"
+                                    src="/images/NPT07925.jpg"
                                     alt=""
                                     loading="lazy"
                                 />
@@ -296,7 +288,7 @@
                         <div style="display: flex; gap: 30px">
                             <div class="image-wrap">
                                 <img
-                                    src="https://drive.google.com/uc?id=1QdVS4LeBBp3R9Mfk84ukAhkhk6t05Gqf"
+                                    src="/images/NPT07805.jpg"
                                     alt=""
                                     loading="lazy"
                                 />
@@ -395,11 +387,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="https://drive.google.com/uc?id=1kT6LLshaHZ7Sf_mSE3BQCDR4y4NaasA6"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT08000.jpg" alt="" loading="lazy" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -425,11 +413,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="https://drive.google.com/uc?id=10B_ClPyj9rT__gsV_DqaFdlSqsjIAxHx"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT08162.jpg" alt="" loading="lazy" />
                     </div>
                     <div class="timeline-panel right">
                         <div class="timeline-heading">
@@ -455,11 +439,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="https://drive.google.com/uc?id=1_tT9KO1wDmH3rUcpM1NfPvjY3lEaccyN"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT08223.jpg" alt="" loading="lazy" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -483,11 +463,7 @@
                 </div>
                 <div class="timeline">
                     <div class="timeline-badge">
-                        <img
-                            src="https://drive.google.com/uc?id=1-DX5K3skCHT8Nz3AqE3IkI797prmQySS"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07827.jpg" alt="" loading="lazy" />
                     </div>
                     <div class="timeline-panel right">
                         <div class="timeline-heading">
@@ -539,41 +515,25 @@
                 </div>
                 <div class="grid">
                     <div class="grid-item" style="left: 0%; top: 0px">
-                        <img
-                            src="https://drive.google.com/uc?id=1s8fNXmAq0ppj_Juc2BigFtrBe-pFc_xy"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07977.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 0px"
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1QdVS4LeBBp3R9Mfk84ukAhkhk6t05Gqf"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07805.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 66.6667%; top: 0px"
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1IRxJD2aZRNnkfCUkQNxIClAY-d8AR60l"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07426.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 259.75px"
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1FaZ-dzADoSJ6MgxsxSp2umJ6qOSure-t"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07906.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
@@ -583,41 +543,25 @@
                             top: 293.594px;
                         "
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1zQSf0ImhzE8VbWkDarmLVGUwkqv93wtS"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07955.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 560px"
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1MHkLQKERNrHy3t78gxZ-WYba11GM47gk"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT08102.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 819.75px"
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1LSnGoZHzFx-92t1caCPiInUypgAAQI3T"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT08251.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 1120px"
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1HFZyZ6YaOQj6RAoxW2EzFPPhLwgyQk1I"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07635.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
@@ -627,21 +571,13 @@
                             top: 853.594px;
                         "
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1lfUu0mY5sVDzUM9nd4sGxbyC-GQshlX8"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07679.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 1390.75px"
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1HvqCkAp3KWK16FUbkF_Wxi3si1txAx6K"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07714.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
@@ -651,11 +587,7 @@
                             top: 1414.31px;
                         "
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1fyTvz1jLVTT0b4gH6vKsqCZwy-D8oq5l"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07878.jpg" alt="" loading="lazy" />
                     </div>
                     <div
                         class="grid-item"
@@ -665,11 +597,7 @@
                             top: 1380.31px;
                         "
                     >
-                        <img
-                            src="https://drive.google.com/uc?id=1MK4MQ0ncQu0RHcoQBypgmMIgC_UoTdW6"
-                            alt=""
-                            loading="lazy"
-                        />
+                        <img src="/images/NPT07635.jpg" alt="" loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -1127,7 +1055,7 @@ onMounted(async () => {
     }
 }
 .the-countdown {
-    background: url(https://drive.google.com/uc?id=1_hOypvNW7-GpMtPRaOPsPcJy0rd9PnWS);
+    background: url(/images/NPT08187.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1257,8 +1185,7 @@ onMounted(async () => {
     }
 }
 .invitation-section {
-    background: url(https://drive.google.com/uc?id=1lXhC5BE0ipb44hBVYbk6Vx3I95ldHFjV)
-        center center/cover no-repeat local;
+    background: url(/images/ab.jpg) center center/cover no-repeat local;
     display: flex;
     justify-content: center;
     position: relative;
@@ -1448,7 +1375,7 @@ onMounted(async () => {
     }
 }
 .countdown {
-    background: url(https://drive.google.com/uc?id=1xTDJxxbTZipLb9KpLJ1h5Havt5JEx6pm);
+    background: url(/images/NPT07740.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -1562,7 +1489,7 @@ onMounted(async () => {
     }
 }
 .wishes {
-    background: url(https://drive.google.com/uc?id=1kZeqzzWMVoEv20uW1i1iIw-jaMGVF6g_);
+    background: url(/images/NPT08146.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -1662,8 +1589,7 @@ onMounted(async () => {
     }
 }
 .site-footer {
-    background: url(https://drive.google.com/uc?id=1LSnGoZHzFx-92t1caCPiInUypgAAQI3T)
-        center center/cover no-repeat local;
+    background: url(/images/NPT08251.jpg) center center/cover no-repeat local;
     text-align: center;
     height: 100vh;
     min-height: 900px;
