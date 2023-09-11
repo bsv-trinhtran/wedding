@@ -20,8 +20,8 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=1GP7Bla-zgknynDid51E_AvnOXjsvknTb)
-                                no-repeat center;
+                            background: url(/images/NPT07732.jpg) no-repeat
+                                center;
                             background-size: cover;
                         "
                     ></div>
@@ -30,8 +30,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=1C33bwMQW6G72ND83TyEdzZYrc9XYpU5d)
-                                no-repeat;
+                            background: url(/images/NPT08027.jpg) no-repeat;
                             background-size: cover;
                             background-position: 55%;
                         "
@@ -41,8 +40,8 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=1-PDhejxp10tL6YA-Y9PvrBMgNfWG1TO-)
-                                no-repeat center;
+                            background: url(/images/NPT07955.jpg) no-repeat
+                                center;
                             background-size: cover;
                         "
                     ></div>
@@ -51,8 +50,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=12Qnz3VbD7ndcdZjbSM69kJyY-I_grypY)
-                                no-repeat;
+                            background: url(/images/NPT07426.jpg) no-repeat;
                             background-size: cover;
                             background-position: 60%;
                         "
