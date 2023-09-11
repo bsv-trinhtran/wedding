@@ -20,7 +20,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=1j-Ir8wNFEWHppGFtYaVVaT6nBAZUcyn0)
+                            background: url(https://drive.google.com/uc?id=1GP7Bla-zgknynDid51E_AvnOXjsvknTb)
                                 no-repeat center;
                             background-size: cover;
                         "
@@ -30,7 +30,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=1OvB_DT3KMyPUoXWoGKU7de9CqBS9IAJu)
+                            background: url(https://drive.google.com/uc?id=1C33bwMQW6G72ND83TyEdzZYrc9XYpU5d)
                                 no-repeat;
                             background-size: cover;
                             background-position: 55%;
@@ -41,7 +41,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=1zQSf0ImhzE8VbWkDarmLVGUwkqv93wtS)
+                            background: url(https://drive.google.com/uc?id=1-PDhejxp10tL6YA-Y9PvrBMgNfWG1TO-)
                                 no-repeat center;
                             background-size: cover;
                         "
@@ -51,7 +51,7 @@
                     <div
                         class="background"
                         style="
-                            background: url(https://drive.google.com/uc?id=1IRxJD2aZRNnkfCUkQNxIClAY-d8AR60l)
+                            background: url(https://drive.google.com/uc?id=12Qnz3VbD7ndcdZjbSM69kJyY-I_grypY)
                                 no-repeat;
                             background-size: cover;
                             background-position: 60%;
@@ -428,7 +428,7 @@
                 <div class="timeline">
                     <div class="timeline-badge">
                         <img
-                            src="https://drive.google.com/uc?id=1kT6LLshaHZ7Sf_mSE3BQCDR4y4NaasA6"
+                            src="https://drive.google.com/uc?id=10B_ClPyj9rT__gsV_DqaFdlSqsjIAxHx"
                             alt=""
                             loading="lazy"
                         />
@@ -458,7 +458,7 @@
                 <div class="timeline">
                     <div class="timeline-badge">
                         <img
-                            src="https://drive.google.com/uc?id=1kT6LLshaHZ7Sf_mSE3BQCDR4y4NaasA6"
+                            src="https://drive.google.com/uc?id=1_tT9KO1wDmH3rUcpM1NfPvjY3lEaccyN"
                             alt=""
                             loading="lazy"
                         />
@@ -596,7 +596,7 @@
                         style="position: absolute; left: 33.3333%; top: 560px"
                     >
                         <img
-                            src="https://drive.google.com/uc?id=1lXhC5BE0ipb44hBVYbk6Vx3I95ldHFjV"
+                            src="https://drive.google.com/uc?id=1MHkLQKERNrHy3t78gxZ-WYba11GM47gk"
                             alt=""
                             loading="lazy"
                         />
@@ -1564,7 +1564,7 @@ onMounted(async () => {
     }
 }
 .wishes {
-    background: url(https://lh3.googleusercontent.com/pw/AIL4fc9m_cR4C5MNkbPDSPXb_wS869ATA6cnHs07TwkQ7IfvjCphTii_fn2I5eLNsIVtm_fvqhj0ou6Mp1s_OicTqRYm_2srOpfJotto-snL5Wdwmz5nmtt2wtUeuTLmU6nUtEsCbc4t8JhdA0VSKZsylpS-dy6-3ZISf-vPwKXR060OyYH2WEUetfg-PaZ7-me45hhl-31BlIb0BDjp3aUg5o_GShUVrBgSEWw4C5ggsHSzMclyuEz09JgITbpV88lM2-ZoDhjFqzrwY5lH6J9xhBSvggewC_kHL51q35PGTyKNqLP8FZ4EZVzxFEpV9IOtc1eE7ZUacTrHneI15RZd0dgM1oD5eQEvwUOzzlSC59RQ03_0oAuzgsASfJxUTZLuVkdxZ7ACaV-k4qpCAVHewqVPBH4Ub098e7TV8IowiHrZm75H2nrqUgFyE2wwoX3zPgaQ5XXkLHfKRrnL4uqIuj08V6vchLlijXhZIppiOjXEUJ7Q6qfDR9k0ooCqzKQoK90F9XowdXEL4Zh27UYzqTfn2Kt5DysMRDeQhDmI4BlN5lFXLqc9iuKhW0LqhK73ZUxLt66KtdNuVKmUs_qu-MY6OAoY7F9KRTfnQCa8zv5NT_NCLMYuRVMYmFwRngpHReNR8Nb8xghbUHss1Bx1sXdHlVHF_Ff2pAX2F_SjXy0409L8WAbnh01WKK0yEC5jg0g671GvWhc3x8UStjtBBA31d2QAufxt5eNQAe_fGIDGwJXoAaOIZhhzRbahuBjCf11CoSuuD6IqyvttxKaz1ojNSjPDLe-dKwkLP6LgZJWqwy5TIIMOINiYvEdxtaSwJkJiTitpdVcB239_8rPaSPnDWgiGbeGPyYHRkUkKS2fCvFozynOzRfHfL-bdmth6EQCvBSuwml6K1ApnX5K01uGxhMzSW4iKi27mPzGzafEv1Sr2fkTUQtn_2nqmdSmx5UNTpa_I_52Y967sWh6vwhpP_pJMIK4Kz4YhaWnNd6my8qtVa1YFv1SBTVfsMqolzqs=w649-h973-s-no?authuser=0);
+    background: url(https://drive.google.com/uc?id=1kZeqzzWMVoEv20uW1i1iIw-jaMGVF6g_);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
