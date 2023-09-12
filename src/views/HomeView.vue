@@ -188,19 +188,19 @@
                 </div>
                 <div class="date">
                     <div>
-                        <h4>{{ days }}</h4>
+                        <h4 id="days"></h4>
                         <p>NGÀY</p>
                     </div>
                     <div>
-                        <h4>{{ hours }}</h4>
+                        <h4 id="hours"></h4>
                         <p>GIỜ</p>
                     </div>
                     <div>
-                        <h4>{{ minutes }}</h4>
+                        <h4 id="minutes"></h4>
                         <p>PHÚT</p>
                     </div>
                     <div>
-                        <h4>{{ seconds }}</h4>
+                        <h4 id="seconds"></h4>
                         <p>GIÂY</p>
                     </div>
                 </div>
@@ -722,36 +722,37 @@ const isModal = ref(false);
 const name = ref("");
 const loichuc = ref("");
 const arrayLoiChuc = ref([]);
-const days = ref("");
-const hours = ref("");
-const minutes = ref("");
-const seconds = ref("");
 const countdownDate = new Date("2023-10-12 11:00:00").getTime();
 function addLeadingZero(number) {
     return number < 10 ? "0" + number : number;
 }
 const countdownInterval = setInterval(function () {
+    const days = document.getElementById("days");
+    const hours = document.getElementById("hours");
+    const minutes = document.getElementById("minutes");
+    const seconds = document.getElementById("seconds");
     const now = new Date().getTime();
     const distance = countdownDate - now;
 
     if (distance <= 0) {
         clearInterval(countdownInterval);
         document.getElementById("countdown").innerHTML = "Hết thời gian!";
-        days.value = "00";
-        hours.value = "00";
-        minutes.value = "00";
-        seconds.value = "00";
+        days.textContent = "00";
+        hours.textContent = "00";
+        minutes.textContent = "00";
+        seconds.textContent = "00";
     } else {
-        days.value = addLeadingZero(
+        console.log(days);
+        days.textContent = addLeadingZero(
             Math.floor(distance / (1000 * 60 * 60 * 24))
         );
-        hours.value = addLeadingZero(
+        hours.textContent = addLeadingZero(
             Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
         );
-        minutes.value = addLeadingZero(
+        minutes.textContent = addLeadingZero(
             Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
         );
-        seconds.value = addLeadingZero(
+        seconds.textContent = addLeadingZero(
             Math.floor((distance % (1000 * 60)) / 1000)
         );
     }
