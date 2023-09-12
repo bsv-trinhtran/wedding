@@ -722,7 +722,7 @@ const isModal = ref(false);
 const name = ref("");
 const loichuc = ref("");
 const arrayLoiChuc = ref([]);
-const countdownDate = new Date("2023-10-12 11:00:00").getTime();
+const countdownDate = new Date("2023-10-12T11:00:00").getTime();
 function addLeadingZero(number) {
     return number < 10 ? "0" + number : number;
 }
