@@ -81,30 +81,29 @@
             <div class="couple-wrap">
                 <div class="groom-wrap">
                     <div class="groom">
-                        <img src="/images/NPT07571.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07571.jpg" alt="" />
                     </div>
                     <div class="desc-groom">
                         <h3>Trần Ngọc Linh</h3>
                         <p>
-                            Là một chuyên viên thiết kế xây dựng tại thành phố
-                            Hồ Chí Minh. Là một người hiền lành và ít nói. Luôn
-                            coi trọng tình cảm và yêu thương gia đình. Với anh:
-                            “Gia đình là điểm tựa vững chắc nhất và là bến đỗ
-                            bình yên không đâu sánh bằng đối với mỗi con người.
-                            Đó luôn là nơi tràn ngập tình yêu thương để ta trở
-                            về.”
+                            Là một kỹ sư xây dựng tại thành phố Hồ Chí Minh. Là
+                            một người hiền lành và ít nói. Luôn coi trọng tình
+                            cảm và yêu thương gia đình. Với anh: “Gia đình là
+                            điểm tựa vững chắc nhất và là bến đỗ bình yên không
+                            đâu sánh bằng đối với mỗi con người. Đó luôn là nơi
+                            tràn ngập tình yêu thương để ta trở về.”
                         </p>
                     </div>
                 </div>
                 <div class="groom-wrap">
                     <div class="groom">
-                        <img src="/images/NPT07531.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07531.jpg" alt="" />
                     </div>
                     <div class="desc-groom">
                         <h3>Huỳnh Phương Uyên</h3>
                         <p>
                             Cô gái đến từ tỉnh Bình Thuận, hiện đang sinh sống
-                            và làm việc tại thủ đô Hồ Chí Minh. Sau khi tốt
+                            và làm việc tại thành phố Hồ Chí Minh. Sau khi tốt
                             nghiệp đại học cô đã đi làm. Là một người hay cười
                             nhưng lại sống nội tâm, thích đọc sách, trồng cây và
                             yêu thiên nhiên. Ngoài ra còn rất thích vẽ vời, nuôi
@@ -219,11 +218,7 @@
                         <h3 class="text-center">TIỆC CƯỚI NHÀ NỮ</h3>
                         <div style="display: flex; gap: 30px">
                             <div class="image-wrap">
-                                <img
-                                    src="/images/NPT07925.jpg"
-                                    alt=""
-                                    loading="lazy"
-                                />
+                                <img src="/images/NPT07925.jpg" alt="" />
                             </div>
                             <div class="event-title">
                                 <div style="display: flex; gap: 20px">
@@ -287,11 +282,7 @@
                         <h3 class="text-center">TIỆC CƯỚI NHÀ NAM</h3>
                         <div style="display: flex; gap: 30px">
                             <div class="image-wrap">
-                                <img
-                                    src="/images/NPT07805.jpg"
-                                    alt=""
-                                    loading="lazy"
-                                />
+                                <img src="/images/NPT07805.jpg" alt="" />
                             </div>
                             <div class="event-title">
                                 <div style="display: flex; gap: 20px">
@@ -375,7 +366,7 @@
                 </div>
             </div>
         </div>
-        <div class="couple-story" id="couple-story">
+        <!-- <div class="couple-story" id="couple-story">
             <div class="container">
                 <div class="heading">
                     <h2>Chuyện Tình Yêu</h2>
@@ -485,7 +476,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="countdown">
             <div class="overlay"></div>
             <div class="container">
@@ -515,25 +506,25 @@
                 </div>
                 <div class="grid">
                     <div class="grid-item" style="left: 0%; top: 0px">
-                        <img src="/images/NPT07977.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07977.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 0px"
                     >
-                        <img src="/images/NPT07805.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07805.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 66.6667%; top: 0px"
                     >
-                        <img src="/images/NPT07426.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07426.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 259.75px"
                     >
-                        <img src="/images/NPT07906.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07906.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
@@ -543,25 +534,25 @@
                             top: 293.594px;
                         "
                     >
-                        <img src="/images/NPT07955.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07955.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 560px"
                     >
-                        <img src="/images/NPT08102.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT08102.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 819.75px"
                     >
-                        <img src="/images/NPT08251.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT08251.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 33.3333%; top: 1120px"
                     >
-                        <img src="/images/NPT07595.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07595.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
@@ -571,13 +562,13 @@
                             top: 853.594px;
                         "
                     >
-                        <img src="/images/NPT07679.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07679.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
                         style="position: absolute; left: 0%; top: 1390.75px"
                     >
-                        <img src="/images/NPT07714.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07714.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
@@ -587,7 +578,7 @@
                             top: 1414.31px;
                         "
                     >
-                        <img src="/images/NPT07878.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07878.jpg" alt="" />
                     </div>
                     <div
                         class="grid-item"
@@ -597,7 +588,7 @@
                             top: 1380.31px;
                         "
                     >
-                        <img src="/images/NPT07635.jpg" alt="" loading="lazy" />
+                        <img src="/images/NPT07635.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -973,7 +964,7 @@ onMounted(async () => {
                 width: 400px;
                 height: 400px;
                 border-radius: 50%;
-                border: 5px solid #f23b43;
+                // border: 5px solid #f23b43;
                 padding: 5px;
             }
         }

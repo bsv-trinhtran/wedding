@@ -33,13 +33,13 @@
                             >Sự kiện cưới</a
                         >
                     </li>
-                    <li>
+                    <!-- <li>
                         <a
                             @click="scrollToSection('couple-story')"
                             :class="isActive == 4 ? 'active' : ''"
                             >Chuyện tình yêu</a
                         >
-                    </li>
+                    </li> -->
                     <li>
                         <a
                             @click="scrollToSection('gallery')"
@@ -98,13 +98,13 @@
                             >Sự kiện cưới</a
                         >
                     </li>
-                    <li>
+                    <!-- <li>
                         <a
                             @click="scrollToSection('couple-story')"
                             :class="isActive == 4 ? 'active' : ''"
                             >Chuyện tình yêu</a
                         >
-                    </li>
+                    </li> -->
                     <li>
                         <a
                             @click="scrollToSection('gallery')"
@@ -149,21 +149,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 3 * window.innerHeight + 114 + 286 + 2124 + 417 + 725 + 2383
             ) {
                 styleHeader.value = true;
-                isActive.value = 6;
+                isActive.value = 7;
                 isIconRed.value = true;
             } else if (
                 this.scrollTop + 100 >=
                 3 * window.innerHeight + 114 + 286 + 2124 + 417 + 725
             ) {
                 styleHeader.value = true;
-                isActive.value = 5;
+                isActive.value = 6;
                 isIconRed.value = true;
             } else if (
                 this.scrollTop + 100 >=
                 3 * window.innerHeight + 114 + 286 + 725
             ) {
                 styleHeader.value = true;
-                isActive.value = 4;
+                isActive.value = 5;
                 isIconRed.value = true;
             } else if (
                 this.scrollTop + 100 >=

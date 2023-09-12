@@ -52,7 +52,7 @@
                             <p>Ngân hàng: <strong>VietcomBank</strong></p>
                             <p>
                                 Tên tài khoản:
-                                <strong>NGUYEN PHUONG UYEN</strong>
+                                <strong>HUYNH PHUONG UYEN</strong>
                             </p>
                             <p>Số tài khoản: <strong>0251002756663</strong></p>
                         </div>
